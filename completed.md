@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **10**
+Number of completed stations: **11**
 
 ## U1
 
@@ -23,6 +23,7 @@ Number of completed stations: **10**
 - Wedding
 - Stadtmitte
 - Mehringdamm
+- Tempelhof
 
 ## U7
 
@@ -41,6 +42,7 @@ Number of completed stations: **10**
 - Messe Nord/ICC
 - Heidelberger Platz
 - Schöneberg
+- Tempelhof
 
 ## S1
 
