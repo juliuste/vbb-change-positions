@@ -20,4 +20,4 @@ For a full documentation on this CLI tool, just run
 
 ```shell
 vbb-stations --help
-``
+```
