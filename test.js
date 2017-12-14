@@ -50,23 +50,28 @@ test('data.csv looks correct', (t) => {
 
 test('data.csv contains correct values', async (t) => {
 	const positions = await changePositions()
-	for(let position of positions){
-		t.ok(notNullString(position.station), (position.stationName || position.station) + ' station')
-		t.ok(nullString(position.stationName), (position.stationName || position.station) + ' stationName')
+	for (let i = 0; i < positions.length; i++) {
+		const p = positions[i]
+		let desc = 'row ' + i
+		if (p.stationName) desc += ' (' + p.stationName + ')'
+		else if (p.station) desc += ' (' + p.station + ')'
 
-		t.ok(notNullString(position.fromLine), (position.stationName || position.station) + ' fromLine')
-		t.ok(notNullString(position.fromStation), (position.stationName || position.station) + ' fromStation')
-		t.ok(nullString(position.fromStationName), (position.stationName || position.station) + ' fromStationName')
-		t.ok(nullString(position.fromTrack), (position.stationName || position.station) + ' fromTrack')
-		t.ok(validPosition(position.fromPosition), (position.stationName || position.station) + ' fromPosition')
+		t.ok(notNullString(p.station), desc + ' station')
+		t.ok(nullString(p.stationName), desc + ' stationName')
 
-		t.ok(notNullString(position.toLine), (position.stationName || position.station) + ' toLine')
-		t.ok(notNullString(position.toStation), (position.stationName || position.station) + ' toStation')
-		t.ok(nullString(position.toStationName), (position.stationName || position.station) + ' toStationName')
-		t.ok(nullString(position.toTrack), (position.stationName || position.station) + ' toTrack')
-		t.ok(validPosition(position.toPosition), (position.stationName || position.station) + ' toPosition')
+		t.ok(notNullString(p.fromLine), desc + ' fromLine')
+		t.ok(notNullString(p.fromStation), desc + ' fromStation')
+		t.ok(nullString(p.fromStationName), desc + ' fromStationName')
+		t.ok(nullString(p.fromTrack), desc + ' fromTrack')
+		t.ok(validPosition(p.fromPosition), desc + ' fromPosition')
 
-		t.ok(isBoolean(position.samePlatform), (position.stationName || position.station) + ' samePlatform')
+		t.ok(notNullString(p.toLine), desc + ' toLine')
+		t.ok(notNullString(p.toStation), desc + ' toStation')
+		t.ok(nullString(p.toStationName), desc + ' toStationName')
+		t.ok(nullString(p.toTrack), desc + ' toTrack')
+		t.ok(validPosition(p.toPosition), desc + ' toPosition')
+
+		t.ok(isBoolean(p.samePlatform), desc + ' samePlatform')
 	}
 	t.end()
 })
