@@ -89,6 +89,8 @@ If you want to add information to the dataset, do so by forking this repository,
 
 Please note that by contributing to this project, you pass on any copyright of the information you add. (This should be obvious, I'm mentioning it for legal reasons nonetheless.)
 
+Have a look at [this list](completed.md) for a collection of stations that have already been "completed". If you send a pull requests that completes another station, feel free to add it there.
+
 ## License
 
 This dataset is licensed under the [`ODbL` license (v1.0)](https://opendatacommons.org/licenses/odbl/1.0/).
