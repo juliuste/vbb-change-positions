@@ -1,0 +1,2 @@
+station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPosition,toLine,toStation,toStationName,toPlatform,toPosition
+900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5
