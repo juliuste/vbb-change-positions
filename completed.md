@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **6**
+Number of completed stations: **7**
 
 ## U1
 
@@ -31,3 +31,8 @@ Number of completed stations: **6**
 - Westhafen
 - Messe Nord/ICC
 - Heidelberger Platz
+- Schöneberg
+
+## S1
+
+- Schöneberg

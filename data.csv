@@ -64,3 +64,19 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000023202,Augsburger Straße,,0
 900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000043101,Hohenzollernplatz,,1
 900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000043101,Hohenzollernplatz,,1
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S41,900000054105,Innsbrucker Platz,,0.5
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S42,900000058101,Südkreuz,,0.5
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000054105,Innsbrucker Platz,,0.5
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000058101,Südkreuz,,0.5
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S41,900000054105,Innsbrucker Platz,,0.5
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S42,900000058101,Südkreuz,,0.5
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000054105,Innsbrucker Platz,,0.5
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000058101,Südkreuz,,0.5
+900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
+900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
+900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
+900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
+900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5
+900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
+900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5
+900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
