@@ -1,5 +1,6 @@
 'use strict'
 
+const tapePromise = require('tape-promise').default
 const tape = require('tape')
 const linter = require('csvlint')
 const isString = require('lodash.isstring')
@@ -13,7 +14,9 @@ const notNullString = (x) => isString(x) && !!x
 const nullString = (x) => (isString(x) && !!x) || x === null
 const validPosition = (x) => isNumber(x) && x >= 0 && x <= 1
 
-tape('vbb-change-positions', async (t) => {
+const test = tapePromise(tape)
+
+test('vbb-change-positions', async (t) => {
 	const lint = await toArray(fs.createReadStream('./data.csv').pipe(linter()))
 	.then(() => t.pass('linter'))
 	.catch((error) => {
