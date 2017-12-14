@@ -2,7 +2,7 @@
 
 As you might know, every VBB station has its own unique station ID, and you'll need to know your station's ID in order to add it to the dataset.
 
-Fortunately, for all the people that have `node.js` installed, [@derhuerst](https://github.com/derhuerst) wrote a command line tool just for that.
+Fortunately, for everyone who has [Node.js](https://nodejs.org/en/) installed, [@derhuerst](https://github.com/derhuerst) wrote a command line tool just for that.
 
 ```shell
 npm install -g vbb-stations-cli
