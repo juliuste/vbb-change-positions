@@ -58,12 +58,12 @@ The dataset row would then contain the following information:
 | `fromLine`    | Line before changing | yes | `U7` |
 | `fromStation` | Last station (ID\*) on the line before the interchange station | yes | `900000022202` |
 | `fromStationName` | Last station (name) on the line before the interchange station (only for readability of the dataset) | no | `Richard-Wagner-Platz` |
-| `fromTrack`| Arrival platform | no | `""`\*\*
+| `fromTrack`| Arrival platform (track) | no | `""`\*\*
 | `fromPosition`| Number beween 0 (back) and 1 (front, driver pisition), e.g. 0.5 for middle\*\*\* where you leave the arrival platform | yes | `0.2` |
 | `toLine`    | Line after changing | yes | `U2` |
 | `toStation` | First station (ID\*) on the line after the interchange station | yes | `900000022101` |
 | `toStationName` | First station (name) on the line after the interchange station (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
-| `toTrack`| Departure platform | no | `""`\*\*
+| `toTrack`| Departure platform (track) | no | `""`\*\*
 | `toPosition`| Number beween 0 (back) and 1 (front, driver pisition), e.g. 0.5 for middle\*\*\* where you enter the departure platform | yes | `0.5` |
 | `samePlatform` | Set to `true` if both connections meet at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
 
