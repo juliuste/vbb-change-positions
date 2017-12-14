@@ -80,3 +80,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
 900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5
 900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
+900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000056104,Bülowstraße,,0.5
+900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5
+900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000056104,Bülowstraße,,0.5
+900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5
+900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000005201,Kurfürstenstraße,,0.5
+900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000005201,Kurfürstenstraße,,0.5
+900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000017104,Möckernbrücke,,0.5
+900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000017104,Möckernbrücke,,0.5
