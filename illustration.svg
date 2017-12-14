@@ -1,0 +1,46 @@
+<svg height="100" viewBox="0 0 300 100" width="300" xmlns="http://www.w3.org/2000/svg">
+	<g fill="none" fill-rule="evenodd">
+		<g transform="translate(33 10)">
+			<g stroke-linecap="round" stroke-linejoin="round">
+				<path d="m7.5 9.5 34 30" stroke="#3690c0"/>
+				<path d="m31.416886 34.604 10.083114 4.896-6.113384-9.395027" stroke="#3690c0"/>
+				<path d="m42.5 46.5-20 23" stroke="#ff3300"/>
+				<path d="m27.322914 59.381724-4.822914 10.118276 9.350547-6.181203" stroke="#ff3300"/>
+			</g>
+			<g fill="#fff" stroke="#000">
+				<circle cx="3.5" cy="6.5" r="3.5"/>
+				<circle cx="45.5" cy="42.5" r="3.5"/>
+				<circle cx="19.5" cy="73.5" r="3.5"/>
+			</g>
+			<g fill="#000" font-family="FiraCode-Retina, Fira Code, monospace" font-size="9" font-weight="500">
+				<text><tspan x="51" y="45">station</tspan></text>
+				<text><tspan x="30" y="26">fromLine</tspan></text>
+				<text><tspan x="36" y="63">toLine</tspan></text>
+				<text><tspan x="26" y="77">toStation</tspan></text>
+				<text><tspan x="11" y="8">fromStation</tspan></text>
+			</g>
+		</g>
+		<g transform="translate(165 5)">
+			<g fill="#000" font-family="FiraCode-Retina, Fira Code, monospace" font-size="7" font-weight="500">
+				<text><tspan x="44" y="23">.45</tspan></text>
+				<text><tspan x="27.3913" y="7">0</tspan></text>
+				<text><tspan x="79.5217" y="51.0833">1</tspan></text>
+			</g>
+			<g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+				<path d="m .456522 11.541667 77.608695 67.833333" stroke="#3690c0"/>
+				<path d="m67.959244 74.52636 10.105973 4.84864-6.157394-9.366242" stroke="#3690c0"/>
+				<path d="m73.5 9.708333-68.478261 78.833334" stroke="#ff3300"/>
+				<path d="m9.839354 78.420867-4.817615 10.1208 9.347309-6.186099" stroke="#ff3300"/>
+			</g>
+			<path d="m40.6018 1.9312h9.1304v73.3333h-9.1304z" fill="#666" fill-opacity=".6" transform="matrix(.656059 -.75471 .75471 .656059 -13.5954 47.3634)"/>
+			<path d="m45.5236 31.3142h3.6522v18.3333h-3.6522z" fill="#fff" transform="matrix(.656059 -.75471 .75471 .656059 -14.2658 49.6583)"/>
+			<path d="m43.8406 16.0963h9.1304v73.3333h-9.1304z" fill="#666" fill-opacity=".7" transform="matrix(.75471 .656059 -.656059 .75471 46.4891 -18.8148)"/>
+			<g stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+				<path d="m40.173913 34 7.304348-8.708333"/>
+				<path d="m23.73913 8.333333 54.326087 47.208334"/>
+				<path d="m25.706913 6.068862-3.935565 4.528943"/>
+				<path d="m80.033 53.277195-3.935565 4.528943"/>
+			</g>
+		</g>
+	</g>
+</svg>

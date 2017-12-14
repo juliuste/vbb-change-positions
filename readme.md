@@ -49,6 +49,8 @@ The dataset is located in `data.csv`, a [CSV](https://frictionlessdata.io/guides
 
 Let's take the following example: I want to take the `U7` in the direction of `Rudow` to `Bismarckstraße`, where I want to change to the `U2` towards `Ruhleben`.
 
+![an illustration of the keys](illustration.svg)
+
 The dataset row would then contain the following information:
 
 | key name | description | required | example |
