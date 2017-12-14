@@ -1,2 +1,18 @@
 station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPosition,toLine,toStation,toStationName,toPlatform,toPosition
 900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S41,900000026207,Westend,,1
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S42,900000024102,Westkreuz,,0
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000026207,Westend,,1
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000024102,Westkreuz,,0
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S41,900000026207,Westend,,1
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S42,900000024102,Westkreuz,,0
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000026207,Westend,,1
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000024102,Westkreuz,,0
+900000024106,Messe Nord/ICC,S41,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0
+900000024106,Messe Nord/ICC,S42,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0
+900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0
+900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0
+900000024106,Messe Nord/ICC,S41,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1
+900000024106,Messe Nord/ICC,S42,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
+900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1
+900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
