@@ -2,28 +2,53 @@
 
 const tapePromise = require('tape-promise').default
 const tape = require('tape')
-const linter = require('csvlint')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')
 const isBoolean = require('lodash.isboolean')
+const parseCsv = require('csv-parser')
 const toArray = require('get-stream').array
+const path = require('path')
 const fs = require('fs')
+
 const changePositions = require('.')
 
 const notNullString = (x) => isString(x) && !!x
 const nullString = (x) => (isString(x) && !!x) || x === null
 const validPosition = (x) => isNumber(x) && x >= 0 && x <= 1
 
+const dataFile = path.join(__dirname, 'data.csv')
+
 const test = tapePromise(tape)
 
-test('vbb-change-positions', async (t) => {
-	const lint = await toArray(fs.createReadStream('./data.csv').pipe(linter()))
-	.then(() => t.pass('linter'))
-	.catch((error) => {
-		t.fail('linter')
-		console.error(error)
+test('data.csv looks correct', (t) => {
+	const parser = parseCsv()
+	parser.once('headers', (headers) => {
+		t.deepEqual(headers, [
+			'station',
+			'stationName',
+			'fromLine',
+			'fromStation',
+			'fromStationName',
+			'fromTrack',
+			'fromPosition',
+			'toLine',
+			'toStation',
+			'toStationName',
+			'toTrack',
+			'toPosition',
+			'samePlatform'
+		])
 	})
 
+	fs.createReadStream(dataFile)
+	.on('error', err => t.ifError(err))
+	.pipe(parser)
+	.on('error', err => t.ifError(err))
+	.on('data', () => {})
+	.once('end', () => t.end())
+})
+
+test('data.csv contains correct values', async (t) => {
 	const positions = await changePositions()
 	for(let position of positions){
 		t.ok(notNullString(position.station), (position.stationName || position.station) + ' station')
