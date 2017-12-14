@@ -75,7 +75,7 @@ Finally, our example would give us the following data row for the CSV file:
 
 `900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5`
 
-## Contributing
+# Contributing
 
 **Please note that this dataset only contains data for metro, suburban and regional lines; buses and trams are not included.**
 
@@ -83,6 +83,6 @@ If you want to add information to the dataset, do so by forking this repository,
 
 Please note that by contributing to this project, you pass on any copyright of the information you add. (This should be obvious, I'm mentioning it for legal reasons nonetheless.)
 
-## License
+# License
 
 This dataset is licensed under the [`ODbL` license (v1.0)](https://opendatacommons.org/licenses/odbl/1.0/).
