@@ -65,7 +65,7 @@ The dataset row would then contain the following information:
 | `toStationName` | First station (name) on the line after the interchange station (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
 | `toTrack`| Departure platform (track) | no | `""`\*\*
 | `toPosition`| Number beween 0 (back) and 1 (front, driver pisition), e.g. 0.5 for middle\*\*\* where you enter the departure platform | yes | `0.5` |
-| `samePlatform` | Set to `true` if both connections meet at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
+| `samePlatform` | Set to `true` if both trains stop at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
 
 \* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
 
