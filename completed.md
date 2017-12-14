@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **11**
+Number of completed stations: **12**
 
 ## U1
 
@@ -35,14 +35,19 @@ Number of completed stations: **11**
 - Kurfürstendamm
 - Spichernstraße
 
-## Ring
+## Ringbahn
 
 - Wedding
 - Westhafen
 - Messe Nord/ICC
+- Westkreuz
 - Heidelberger Platz
 - Schöneberg
 - Tempelhof
+
+## Stadtbahn
+
+- Westkreuz
 
 ## S1
 
