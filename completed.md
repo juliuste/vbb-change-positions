@@ -8,7 +8,12 @@
 
 - Heidelberger Platz
 
+## U9
+
+- Westhafen
+
 ## Ring
 
+- Westhafen
 - Messe Nord/ICC
 - Heidelberger Platz
