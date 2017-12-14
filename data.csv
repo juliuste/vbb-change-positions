@@ -48,3 +48,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000009102,Leopoldplatz,,0
 900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000008102,Reinickendorfer Straße,,1
 900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000008102,Reinickendorfer Straße,,1
+900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000042101,Spichernstraße,,0
+900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000023201,Zoologischer Garten,,1
+900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000042101,Spichernstraße,,0
+900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000023201,Zoologischer Garten,,1
+900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000023301,Uhlandstraße,,1
+900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000023301,Uhlandstraße,,1
+900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000056101,Wittenbergplatz,,0
+900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000056101,Wittenbergplatz,,0

@@ -1,5 +1,11 @@
 # Completed stations
 
+Number of completed stations: **5**
+
+## U1
+
+- Kurfürstendamm
+
 ## U2
 
 - Kaiserdamm
@@ -15,6 +21,7 @@
 ## U9
 
 - Westhafen
+- Kurfürstendamm
 
 ## Ring
 
