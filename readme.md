@@ -65,7 +65,7 @@ The dataset row would then contain the following information:
 | `toPlatform`| Departure platform | no | `""`\*\*
 | `toPosition`| Number beween 0 (back) and 1 (front, driver pisition), e.g. 0.5 for middle\*\*\* where you enter the departure platform | yes | `0.5` |
 
-\* See [this document] if you don't know how to find out some station's VBB station ID
+\* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
 
 \*\* If unknown, just leave empty like I did here.
 
