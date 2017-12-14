@@ -36,7 +36,8 @@ If you call the function exported by the module, it will return a [Promise](http
         "toStation": "900000022101",
         "toStationName": "Sophie-Charlotte-Platz",
         "toPlatform": null,
-        "toPosition": 0.5
+        "toPosition": 0.5,
+        "samePlatform": false
     }
     // …
 ]
@@ -64,6 +65,7 @@ The dataset row would then contain the following information:
 | `toStationName` | First station (name) on the line after the interchange station (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
 | `toPlatform`| Departure platform | no | `""`\*\*
 | `toPosition`| Number beween 0 (back) and 1 (front, driver pisition), e.g. 0.5 for middle\*\*\* where you enter the departure platform | yes | `0.5` |
+| `samePlatform` | Set to `true` if both connections meet at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
 
 \* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
 
@@ -73,14 +75,14 @@ The dataset row would then contain the following information:
 
 Finally, our example would give us the following data row for the CSV file:
 
-`900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5`
+`900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5,false`
 
 ### Additional guidelines
 
 - If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
 - For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
 - If there's multiple ways connecting to platforms, either add separate rows for all of them or just add the shortest connection
-- If two lines stop at the same platform, don't add a data row for that interchange, since we don't have a way of expressing that relation (yet)
+- `fromLine` and `toLine` must be different, `fromStation` and `toStation` can be identical, however
 
 ## Contributing
 

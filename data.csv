@@ -1,190 +1,190 @@
-station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPosition,toLine,toStation,toStationName,toPlatform,toPosition
-900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5
-900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S41,900000026207,Westend,,1
-900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S42,900000024102,Westkreuz,,0
-900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000026207,Westend,,1
-900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000024102,Westkreuz,,0
-900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S41,900000026207,Westend,,1
-900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S42,900000024102,Westkreuz,,0
-900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000026207,Westend,,1
-900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000024102,Westkreuz,,0
-900000024106,Messe Nord/ICC,S42,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0
-900000024106,Messe Nord/ICC,S41,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0
-900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0
-900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0
-900000024106,Messe Nord/ICC,S42,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1
-900000024106,Messe Nord/ICC,S41,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
-900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1
-900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
-900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S41,900000044101,Hohenzollerndamm,,0
-900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S42,900000044202,Bundesplatz,,1
-900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044101,Hohenzollerndamm,,0
-900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044202,Bundesplatz,,1
-900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S41,900000044101,Hohenzollerndamm,,0
-900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S42,900000044202,Bundesplatz,,1
-900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044101,Hohenzollerndamm,,0
-900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044202,Bundesplatz,,1
-900000045102,Heidelberger Platz,S42,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0
-900000045102,Heidelberger Platz,S41,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0
-900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0
-900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0
-900000045102,Heidelberger Platz,S42,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1
-900000045102,Heidelberger Platz,S41,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1
-900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1
-900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1
-900000001201,Westhafen,U9,900000009101,Amrumer Straße,,1,S41,900000009104,Wedding,,0
-900000001201,Westhafen,U9,900000009101,Amrumer Straße,,1,S42,900000020202,Beusselstraße,,1
-900000001201,Westhafen,U9,900000002201,Birkenstraße,,0,S41,900000009104,Wedding,,0
-900000001201,Westhafen,U9,900000002201,Birkenstraße,,0,S42,900000020202,Beusselstraße,,1
-900000001201,Westhafen,S42,900000009104,Wedding,,1,U9,900000009101,Amrumer Straße,,0
-900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000009101,Amrumer Straße,,0
-900000001201,Westhafen,S42,900000009104,Wedding,,1,U9,900000002201,Birkenstraße,,1
-900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000002201,Birkenstraße,,1
-900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S41,900000007102,Gesundbrunnen,,0
-900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S42,900000001201,Westhafen,,1
-900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S41,900000007102,Gesundbrunnen,,0
-900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S42,900000001201,Westhafen,,1
-900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000009102,Leopoldplatz,,0
-900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000009102,Leopoldplatz,,0
-900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000008102,Reinickendorfer Straße,,1
-900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000008102,Reinickendorfer Straße,,1
-900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000042101,Spichernstraße,,0
-900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000023201,Zoologischer Garten,,1
-900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000042101,Spichernstraße,,0
-900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000023201,Zoologischer Garten,,1
-900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000023301,Uhlandstraße,,1
-900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000023301,Uhlandstraße,,1
-900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000056101,Wittenbergplatz,,0
-900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000056101,Wittenbergplatz,,0
-900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000023203,Kurfürstendamm,,0
-900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000043201,Güntzelstraße,,1
-900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000023203,Kurfürstendamm,,0
-900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000043201,Güntzelstraße,,1
-900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000023202,Augsburger Straße,,0
-900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000023202,Augsburger Straße,,0
-900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000043101,Hohenzollernplatz,,1
-900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000043101,Hohenzollernplatz,,1
-900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S41,900000054105,Innsbrucker Platz,,0.5
-900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S42,900000058101,Südkreuz,,0.5
-900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000054105,Innsbrucker Platz,,0.5
-900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000058101,Südkreuz,,0.5
-900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S41,900000054105,Innsbrucker Platz,,0.5
-900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S42,900000058101,Südkreuz,,0.5
-900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000054105,Innsbrucker Platz,,0.5
-900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000058101,Südkreuz,,0.5
-900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
-900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
-900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
-900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5
-900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5
-900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
-900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5
-900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5
-900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000056104,Bülowstraße,,0.5
-900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5
-900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000056104,Bülowstraße,,0.5
-900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5
-900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000005201,Kurfürstenstraße,,0.5
-900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000005201,Kurfürstenstraße,,0.5
-900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000017104,Möckernbrücke,,0.5
-900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000017104,Möckernbrücke,,0.5
-900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000012102,Kochstraße,,0
-900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000100027,Französische Straße,,1
-900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000012102,Kochstraße,,0
-900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000100027,Französische Straße,,1
-900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100010,M*hrenstraße,,1
-900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100010,M*hrenstraße,,1
-900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100012,Hausvogteiplatz,,0
-900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100012,Hausvogteiplatz,,0
-900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,0,U7,900000017104,Möckernbrücke,,1
-900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,1,U7,900000017104,Möckernbrücke,,0
-900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,0,U7,900000016101,Gneisenaustraße,,1
-900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,1,U7,900000016101,Gneisenaustraße,,0
-900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,1,U6,900000012103,Hallesches Tor,,0
-900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,0,U6,900000012103,Hallesches Tor,,1
-900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,1,U6,900000017102,Platz der Luftbrücke,,0
-900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,0,U6,900000017102,Platz der Luftbrücke,,1
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S41,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S42,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S45,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S45,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S46,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S46,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S41,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S42,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S45,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S45,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S46,900000058101,Südkreuz,,0
-900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S46,900000079221,Hermannstraße,,1
-900000068201,Tempelhof,S42,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S41,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S45,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S45,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S46,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S46,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0
-900000068201,Tempelhof,S42,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1
-900000068201,Tempelhof,S41,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1
-900000068201,Tempelhof,S45,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1
-900000068201,Tempelhof,S45,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1
-900000068201,Tempelhof,S46,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1
-900000068201,Tempelhof,S46,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1
-900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S3,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S5,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S7,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S9,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S3,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S5,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S7,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S9,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S3,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S5,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S7,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S9,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S3,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S5,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S7,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S9,900000024101,Charlottenburg,,0.5
-900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S41,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S42,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S46,900000024106,Messe Nord/ICC,,0.5
-900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S46,900000040101,Halensee,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S3,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S7,900000048101,Grunewald,,0.5
-900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S9,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S3,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S7,900000048101,Grunewald,,0.5
-900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S9,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S3,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S7,900000048101,Grunewald,,0.5
-900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S9,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S3,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S7,900000048101,Grunewald,,0.5
-900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S9,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S3,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S9,900000025423,Messe Süd,,0.5
-900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5
+station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPosition,toLine,toStation,toStationName,toPlatform,toPosition,samePlatform
+900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5,false
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S41,900000026207,Westend,,1,false
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S42,900000024102,Westkreuz,,0,false
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000026207,Westend,,1,false
+900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S46,900000024102,Westkreuz,,0,false
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S41,900000026207,Westend,,1,false
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S42,900000024102,Westkreuz,,0,false
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000026207,Westend,,1,false
+900000026202,Kaiserdamm,U2,900000022101,Sophie-Charlotte-Platz,,0,S46,900000024102,Westkreuz,,0,false
+900000024106,Messe Nord/ICC,S42,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0,false
+900000024106,Messe Nord/ICC,S41,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0,false
+900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000026201,Theodor-Heuss-Platz,,0,false
+900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000026201,Theodor-Heuss-Platz,,0,false
+900000024106,Messe Nord/ICC,S42,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1,false
+900000024106,Messe Nord/ICC,S41,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1,false
+900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1,false
+900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1,false
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S41,900000044101,Hohenzollerndamm,,0,false
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S42,900000044202,Bundesplatz,,1,false
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044101,Hohenzollerndamm,,0,false
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044202,Bundesplatz,,1,false
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S41,900000044101,Hohenzollerndamm,,0,false
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S42,900000044202,Bundesplatz,,1,false
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044101,Hohenzollerndamm,,0,false
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044202,Bundesplatz,,1,false
+900000045102,Heidelberger Platz,S42,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0,false
+900000045102,Heidelberger Platz,S41,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0,false
+900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0,false
+900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0,false
+900000045102,Heidelberger Platz,S42,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1,false
+900000045102,Heidelberger Platz,S41,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1,false
+900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1,false
+900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1,false
+900000001201,Westhafen,U9,900000009101,Amrumer Straße,,1,S41,900000009104,Wedding,,0,false
+900000001201,Westhafen,U9,900000009101,Amrumer Straße,,1,S42,900000020202,Beusselstraße,,1,false
+900000001201,Westhafen,U9,900000002201,Birkenstraße,,0,S41,900000009104,Wedding,,0,false
+900000001201,Westhafen,U9,900000002201,Birkenstraße,,0,S42,900000020202,Beusselstraße,,1,false
+900000001201,Westhafen,S42,900000009104,Wedding,,1,U9,900000009101,Amrumer Straße,,0,false
+900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000009101,Amrumer Straße,,0,false
+900000001201,Westhafen,S42,900000009104,Wedding,,1,U9,900000002201,Birkenstraße,,1,false
+900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000002201,Birkenstraße,,1,false
+900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S41,900000007102,Gesundbrunnen,,0,false
+900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S42,900000001201,Westhafen,,1,false
+900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S41,900000007102,Gesundbrunnen,,0,false
+900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S42,900000001201,Westhafen,,1,false
+900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000009102,Leopoldplatz,,0,false
+900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000009102,Leopoldplatz,,0,false
+900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000008102,Reinickendorfer Straße,,1,false
+900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000008102,Reinickendorfer Straße,,1,false
+900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000042101,Spichernstraße,,0,false
+900000023203,Kurfürstendamm,U1,900000023301,Uhlandstraße,,0,U9,900000023201,Zoologischer Garten,,1,false
+900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000042101,Spichernstraße,,0,false
+900000023203,Kurfürstendamm,U1,900000056101,Wittenbergplatz,,1,U9,900000023201,Zoologischer Garten,,1,false
+900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000023301,Uhlandstraße,,1,false
+900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000023301,Uhlandstraße,,1,false
+900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000056101,Wittenbergplatz,,0,false
+900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000056101,Wittenbergplatz,,0,false
+900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000023203,Kurfürstendamm,,0,false
+900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000043201,Güntzelstraße,,1,false
+900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000023203,Kurfürstendamm,,0,false
+900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000043201,Güntzelstraße,,1,false
+900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000023202,Augsburger Straße,,0,false
+900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000023202,Augsburger Straße,,0,false
+900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000043101,Hohenzollernplatz,,1,false
+900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000043101,Hohenzollernplatz,,1,false
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S41,900000054105,Innsbrucker Platz,,0.5,false
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S42,900000058101,Südkreuz,,0.5,false
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000054105,Innsbrucker Platz,,0.5,false
+900000054104,Schöneberg,S1,900000057104,Julius-Leber-Brücke,,0.5,S46,900000058101,Südkreuz,,0.5,false
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S41,900000054105,Innsbrucker Platz,,0.5,false
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S42,900000058101,Südkreuz,,0.5,false
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000054105,Innsbrucker Platz,,0.5,false
+900000054104,Schöneberg,S1,900000060101,Friedenau,,0.5,S46,900000058101,Südkreuz,,0.5,false
+900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5,false
+900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5,false
+900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5,false
+900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000057104,Julius-Leber-Brücke,,0.5,false
+900000054104,Schöneberg,S42,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5,false
+900000054104,Schöneberg,S41,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5,false
+900000054104,Schöneberg,S46,900000054105,Innsbrucker Platz,,0.5,S1,900000060101,Friedenau,,0.5,false
+900000054104,Schöneberg,S46,900000058101,Südkreuz,,0.5,S1,900000060101,Friedenau,,0.5,false
+900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000056104,Bülowstraße,,0.5,false
+900000017103,Gleisdreieck,U1,900000005201,Kurfürstenstraße,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,false
+900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000056104,Bülowstraße,,0.5,false
+900000017103,Gleisdreieck,U1,900000017104,Möckernbrücke,,0.5,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,false
+900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000005201,Kurfürstenstraße,,0.5,false
+900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000005201,Kurfürstenstraße,,0.5,false
+900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000017104,Möckernbrücke,,0.5,false
+900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000017104,Möckernbrücke,,0.5,false
+900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000012102,Kochstraße,,0,false
+900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000100027,Französische Straße,,1,false
+900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000012102,Kochstraße,,0,false
+900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000100027,Französische Straße,,1,false
+900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100010,M*hrenstraße,,1,false
+900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100010,M*hrenstraße,,1,false
+900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100012,Hausvogteiplatz,,0,false
+900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100012,Hausvogteiplatz,,0,false
+900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,0,U7,900000017104,Möckernbrücke,,1,false
+900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,1,U7,900000017104,Möckernbrücke,,0,false
+900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,0,U7,900000016101,Gneisenaustraße,,1,false
+900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,1,U7,900000016101,Gneisenaustraße,,0,false
+900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,1,U6,900000012103,Hallesches Tor,,0,false
+900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,0,U6,900000012103,Hallesches Tor,,1,false
+900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,1,U6,900000017102,Platz der Luftbrücke,,0,false
+900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,0,U6,900000017102,Platz der Luftbrücke,,1,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S41,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S42,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S45,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S45,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S46,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068202,Alt-Tempelhof,,1,S46,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S41,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S42,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S45,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S45,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S46,900000058101,Südkreuz,,0,false
+900000068201,Tempelhof,U6,900000068101,Paradestraße,,0,S46,900000079221,Hermannstraße,,1,false
+900000068201,Tempelhof,S42,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S41,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S45,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S45,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S46,900000058101,Südkreuz,,1,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S46,900000079221,Hermannstraße,,0,U6,900000068202,Alt-Tempelhof,,0,false
+900000068201,Tempelhof,S42,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1,false
+900000068201,Tempelhof,S41,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1,false
+900000068201,Tempelhof,S45,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1,false
+900000068201,Tempelhof,S45,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1,false
+900000068201,Tempelhof,S46,900000058101,Südkreuz,,1,U6,900000068101,Paradestraße,,1,false
+900000068201,Tempelhof,S46,900000079221,Hermannstraße,,0,U6,900000068101,Paradestraße,,1,false
+900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S3,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S5,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S7,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S9,900000024101,Charlottenburg,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S3,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S5,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S7,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S9,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S3,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S5,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S7,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S9,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S3,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S5,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S7,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S9,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S3,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S5,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S7,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S9,900000024101,Charlottenburg,,0.5,false
+900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S41,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S42,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S46,900000024106,Messe Nord/ICC,,0.5,false
+900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S46,900000040101,Halensee,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S3,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000024102,Westkreuz,S42,900000024106,Messe Nord/ICC,,0.5,S9,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S3,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000024102,Westkreuz,S41,900000040101,Halensee,,0.5,S9,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S3,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000024102,Westkreuz,S46,900000024106,Messe Nord/ICC,,0.5,S9,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S3,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000024102,Westkreuz,S46,900000040101,Halensee,,0.5,S9,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S3,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S3,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S9,900000025423,Messe Süd,,0.5,false
+900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5,false

@@ -2,6 +2,7 @@
 
 const fs = require('fs')
 const csv = require('csv-parse')
+const parseBool = require('parseboolean')
 const toArray = require('get-stream').array
 
 const transformRow = (r) => {
@@ -12,6 +13,7 @@ const transformRow = (r) => {
     if(!r.toStationName) r.toStationName = null
     if(!r.toPlatform) r.toPlatform = null
     r.toPosition = +r.toPosition
+    r.samePlatform = parseBool(r.samePlatform)
     return r
 }
 

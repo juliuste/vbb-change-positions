@@ -4,6 +4,7 @@ const tape = require('tape')
 const linter = require('csvlint')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')
+const isBoolean = require('lodash.isboolean')
 const toArray = require('get-stream').array
 const fs = require('fs')
 const changePositions = require('.')
@@ -36,6 +37,8 @@ tape('vbb-change-positions', async (t) => {
 		t.ok(nullString(position.toStationName), (position.stationName || position.station) + ' toStationName')
 		t.ok(nullString(position.toPlatform), (position.stationName || position.station) + ' toPlatform')
 		t.ok(validPosition(position.toPosition), (position.stationName || position.station) + ' toPosition')
+
+		t.ok(isBoolean(position.samePlatform), (position.stationName || position.station) + ' samePlatform')
 	}
 	t.end()
 })
