@@ -69,13 +69,17 @@ The dataset row would then contain the following information:
 
 \*\* If unknown, just leave empty like I did here.
 
-\*\*\* If you're not too sure about the exact position, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
+\*\*\* see [additional guidelines](#additional-guidelines)
 
 Finally, our example would give us the following data row for the CSV file:
 
 `900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5`
 
-For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
+### Additional guidelines
+
+- If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
+- For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
+- If there's multiple ways connecting to platforms, either add separate rows for all of them or just add the shortest connection
 
 ## Contributing
 
