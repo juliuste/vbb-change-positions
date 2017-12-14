@@ -56,3 +56,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000023301,Uhlandstraße,,1
 900000023203,Kurfürstendamm,U9,900000042101,Spichernstraße,,1,U1,900000056101,Wittenbergplatz,,0
 900000023203,Kurfürstendamm,U9,900000023201,Zoologischer Garten,,0,U1,900000056101,Wittenbergplatz,,0
+900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000023203,Kurfürstendamm,,0
+900000042101,Spichernstraße,U3,900000023202,Augsburger Straße,,1,U9,900000043201,Güntzelstraße,,1
+900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000023203,Kurfürstendamm,,0
+900000042101,Spichernstraße,U3,900000043101,Hohenzollernplatz,,0,U9,900000043201,Güntzelstraße,,1
+900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000023202,Augsburger Straße,,0
+900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000023202,Augsburger Straße,,0
+900000042101,Spichernstraße,U9,900000023203,Kurfürstendamm,,1,U3,900000043101,Hohenzollernplatz,,1
+900000042101,Spichernstraße,U9,900000043201,Güntzelstraße,,0,U3,900000043101,Hohenzollernplatz,,1

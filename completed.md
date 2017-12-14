@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **5**
+Number of completed stations: **6**
 
 ## U1
 
@@ -12,6 +12,7 @@ Number of completed stations: **5**
 
 ## U3
 
+- Spichernstraße
 - Heidelberger Platz
 
 ## U6
@@ -22,6 +23,7 @@ Number of completed stations: **5**
 
 - Westhafen
 - Kurfürstendamm
+- Spichernstraße
 
 ## Ring
 
