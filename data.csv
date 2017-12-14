@@ -16,3 +16,19 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000024106,Messe Nord/ICC,S42,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
 900000024106,Messe Nord/ICC,S46,900000026207,Westend,,0,U2,900000022101,Sophie-Charlotte-Platz,,1
 900000024106,Messe Nord/ICC,S46,900000024102,Westkreuz,,1,U2,900000022101,Sophie-Charlotte-Platz,,1
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S41,900000044101,Hohenzollerndamm,,0
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S42,900000044202,Bundesplatz,,1
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044101,Hohenzollerndamm,,0
+900000045102,Heidelberger Platz,U3,900000041101,Fehrbelliner Platz,,1,S46,900000044202,Bundesplatz,,1
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S41,900000044101,Hohenzollerndamm,,0
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S42,900000044202,Bundesplatz,,1
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044101,Hohenzollerndamm,,0
+900000045102,Heidelberger Platz,U3,900000045101,Rüdesheimer Platz,,0,S46,900000044202,Bundesplatz,,1
+900000045102,Heidelberger Platz,S41,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0
+900000045102,Heidelberger Platz,S42,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0
+900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000041101,Fehrbelliner Platz,,0
+900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000041101,Fehrbelliner Platz,,0
+900000045102,Heidelberger Platz,S41,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1
+900000045102,Heidelberger Platz,S42,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1
+900000045102,Heidelberger Platz,S46,900000044101,Hohenzollerndamm,,1,U3,900000045101,Rüdesheimer Platz,,1
+900000045102,Heidelberger Platz,S46,900000044202,Bundesplatz,,0,U3,900000045101,Rüdesheimer Platz,,1
