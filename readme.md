@@ -80,6 +80,7 @@ Finally, our example would give us the following data row for the CSV file:
 - If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
 - For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
 - If there's multiple ways connecting to platforms, either add separate rows for all of them or just add the shortest connection
+- If two lines stop at the same platform, don't add a data row for that interchange, since we don't have a way of expressing that relation (yet)
 
 ## Contributing
 
