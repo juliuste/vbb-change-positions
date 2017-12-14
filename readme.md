@@ -1,6 +1,6 @@
 # vbb-change-positions
 
-Crowd sources database of station-specific platform positions for changes between [VBB](https://www.vbb.de)(Verkehrsverbund Berlin-Brandenburg) metro, suburban and regional lines.
+Crowd sources database of station-specific platform positions for changes between [VBB](https://www.vbb.de) (Verkehrsverbund Berlin-Brandenburg) metro, suburban and regional lines.
 
 You're invited to help, see the [data structure](#data-structure) and [contributing](#contributing) sections!
 
