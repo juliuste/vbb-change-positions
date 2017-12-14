@@ -25,19 +25,19 @@ If you call the function exported by the module, it will return a [Promise](http
 ```js
 [
     {
-        "station": "900000024201",
-        "stationName": "Bismarckstraße",
-        "fromLine": "U7",
-        "fromStation": "900000022202",
-        "fromStationName": "Richard-Wagner-Platz",
-        "fromTrack": null,
-        "fromPosition": 0.2,
-        "toLine": "U2",
-        "toStation": "900000022101",
-        "toStationName": "Sophie-Charlotte-Platz",
-        "toTrack": null,
-        "toPosition": 0.5,
-        "samePlatform": false
+        station: '900000024201',
+        stationName: 'Bismarckstraße',
+        fromLine: 'U7',
+        fromStation: '900000022202',
+        fromStationName: 'Richard-Wagner-Platz',
+        fromTrack: null,
+        fromPosition: 0.2,
+        toLine: 'U2',
+        toStation: '900000022101',
+        toStationName: 'Sophie-Charlotte-Platz',
+        toTrack: null,
+        toPosition: 0.5,
+        samePlatform: false
     }
     // …
 ]
