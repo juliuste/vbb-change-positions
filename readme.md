@@ -75,7 +75,7 @@ Finally, our example would give us the following data row for the CSV file:
 
 `900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5`
 
-Please add the same row twice for interchange stations with different names for S-Bahn and U-Bahn like `Kaiserdamm` and `Messe Nord/ICC`.
+For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
 
 ## Contributing
 
