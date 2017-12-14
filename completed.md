@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **9**
+Number of completed stations: **10**
 
 ## U1
 
@@ -22,6 +22,11 @@ Number of completed stations: **9**
 
 - Wedding
 - Stadtmitte
+- Mehringdamm
+
+## U7
+
+- Mehringdamm
 
 ## U9
 

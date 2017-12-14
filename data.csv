@@ -96,3 +96,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100010,M*hrenstraße,,1
 900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100012,Hausvogteiplatz,,0
 900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100012,Hausvogteiplatz,,0
+900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,0,U7,900000017104,Möckernbrücke,,1
+900000017101,Mehringdamm,U6,900000012103,Hallesches Tor,,1,U7,900000017104,Möckernbrücke,,0
+900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,0,U7,900000016101,Gneisenaustraße,,1
+900000017101,Mehringdamm,U6,900000017102,Platz der Luftbrücke,,1,U7,900000016101,Gneisenaustraße,,0
+900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,1,U6,900000012103,Hallesches Tor,,0
+900000017101,Mehringdamm,U7,900000017104,Möckernbrücke,,0,U6,900000012103,Hallesches Tor,,1
+900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,1,U6,900000017102,Platz der Luftbrücke,,0
+900000017101,Mehringdamm,U7,900000016101,Gneisenaustraße,,0,U6,900000017102,Platz der Luftbrücke,,1
