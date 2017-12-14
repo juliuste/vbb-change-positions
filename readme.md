@@ -75,6 +75,8 @@ Finally, our example would give us the following data row for the CSV file:
 
 `900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5`
 
+Please add the same row twice for interchange stations with different names for S-Bahn and U-Bahn like `Kaiserdamm` and `Messe Nord/ICC`.
+
 ## Contributing
 
 **Please note that this dataset only contains data for metro, suburban and regional lines; buses and trams are not included.**
