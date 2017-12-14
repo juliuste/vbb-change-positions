@@ -46,5 +46,5 @@
 	"engines": {
 		"node": ">=8"
 	},
-	"license": "ODbL"
+	"license": "ODbL-1.0"
 }
