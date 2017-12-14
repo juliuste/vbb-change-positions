@@ -88,3 +88,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000005201,Kurfürstenstraße,,0.5
 900000017103,Gleisdreieck,U2,900000056104,Bülowstraße,,0.5,U1,900000017104,Möckernbrücke,,0.5
 900000017103,Gleisdreieck,U2,900000005252,Mendelssohn-Bartholdy-Park,,0.5,U1,900000017104,Möckernbrücke,,0.5
+900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000012102,Kochstraße,,0
+900000100011,Stadtmitte,U2,900000100010,M*hrenstraße,,0,U6,900000100027,Französische Straße,,1
+900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000012102,Kochstraße,,0
+900000100011,Stadtmitte,U2,900000100012,Hausvogteiplatz,,1,U6,900000100027,Französische Straße,,1
+900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100010,M*hrenstraße,,1
+900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100010,M*hrenstraße,,1
+900000100011,Stadtmitte,U6,900000012102,Kochstraße,,1,U2,900000100012,Hausvogteiplatz,,0
+900000100011,Stadtmitte,U6,900000100027,Französische Straße,,0,U2,900000100012,Hausvogteiplatz,,0

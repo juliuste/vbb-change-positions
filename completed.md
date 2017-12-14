@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **7**
+Number of completed stations: **9**
 
 ## U1
 
@@ -11,6 +11,7 @@ Number of completed stations: **7**
 
 - Kaiserdamm
 - Gleisdreieck
+- Stadtmitte
 
 ## U3
 
@@ -20,6 +21,7 @@ Number of completed stations: **7**
 ## U6
 
 - Wedding
+- Stadtmitte
 
 ## U9
 
