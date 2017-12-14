@@ -1,4 +1,4 @@
-station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPosition,toLine,toStation,toStationName,toPlatform,toPosition,samePlatform
+station,stationName,fromLine,fromStation,fromStationName,fromTrack,fromPosition,toLine,toStation,toStationName,toTrack,toPosition,samePlatform
 900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5,false
 900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S41,900000026207,Westend,,1,false
 900000026202,Kaiserdamm,U2,900000026201,Theodor-Heuss-Platz,,1,S42,900000024102,Westkreuz,,0,false

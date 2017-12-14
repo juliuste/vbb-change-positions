@@ -29,13 +29,13 @@ tape('vbb-change-positions', async (t) => {
 		t.ok(notNullString(position.fromLine), (position.stationName || position.station) + ' fromLine')
 		t.ok(notNullString(position.fromStation), (position.stationName || position.station) + ' fromStation')
 		t.ok(nullString(position.fromStationName), (position.stationName || position.station) + ' fromStationName')
-		t.ok(nullString(position.fromPlatform), (position.stationName || position.station) + ' fromPlatform')
+		t.ok(nullString(position.fromTrack), (position.stationName || position.station) + ' fromTrack')
 		t.ok(validPosition(position.fromPosition), (position.stationName || position.station) + ' fromPosition')
 
 		t.ok(notNullString(position.toLine), (position.stationName || position.station) + ' toLine')
 		t.ok(notNullString(position.toStation), (position.stationName || position.station) + ' toStation')
 		t.ok(nullString(position.toStationName), (position.stationName || position.station) + ' toStationName')
-		t.ok(nullString(position.toPlatform), (position.stationName || position.station) + ' toPlatform')
+		t.ok(nullString(position.toTrack), (position.stationName || position.station) + ' toTrack')
 		t.ok(validPosition(position.toPosition), (position.stationName || position.station) + ' toPosition')
 
 		t.ok(isBoolean(position.samePlatform), (position.stationName || position.station) + ' samePlatform')
