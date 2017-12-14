@@ -40,3 +40,11 @@ station,stationName,fromLine,fromStation,fromStationName,fromPlatform,fromPositi
 900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000009101,Amrumer Straße,,0
 900000001201,Westhafen,S42,900000009104,Wedding,,1,U9,900000002201,Birkenstraße,,1
 900000001201,Westhafen,S41,900000020202,Beusselstraße,,0,U9,900000002201,Birkenstraße,,1
+900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S41,900000007102,Gesundbrunnen,,0
+900000009104,Wedding,U6,900000009102,Leopoldplatz,,1,S42,900000001201,Westhafen,,1
+900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S41,900000007102,Gesundbrunnen,,0
+900000009104,Wedding,U6,900000008102,Reinickendorfer Straße,,0,S42,900000001201,Westhafen,,1
+900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000009102,Leopoldplatz,,0
+900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000009102,Leopoldplatz,,0
+900000009104,Wedding,S42,900000007102,Gesundbrunnen,,1,U6,900000008102,Reinickendorfer Straße,,1
+900000009104,Wedding,S41,900000001201,Westhafen,,0,U6,900000008102,Reinickendorfer Straße,,1
