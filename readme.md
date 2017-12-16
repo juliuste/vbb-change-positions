@@ -61,10 +61,10 @@ The dataset row would then contain the following information:
 | `fromStation` | *Previous* station ID\* on the line before changing | yes | `900000022202` |
 | `fromStationName` | *Previous* station name on the line before changing (only for readability of the dataset) | no | `Richard-Wagner-Platz` |
 | `fromTrack`| Arrival platform (track)\*\* | no | *empty*
-| `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front end of the station) \*\*\* | yes | `0.5` (in the middle of the platform) |
+| `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front "driver's" end of the station) \*\*\* | yes | `0.5` (in the middle of the platform) |
 | `toLine`    | Line name after changing | yes | `U2` |
-| `toStation` | Next station (ID\*) on the line after chaning | yes | `900000022101` |
-| `toStationName` | Next station (name) on the line after chaning (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
+| `toStation` | Next station (ID\*) on the line after changing | yes | `900000022101` |
+| `toStationName` | Next station (name) on the line after changing (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
 | `toTrack`| Departure platform (track)\*\* | no | *empty*
 | `toPosition`| Number where to enter the departure platform.\*\*\* See also `fromPosition`. | yes | `0.2` (far in the front of the platform) |
 | `samePlatform` | Set to `true` if both trains stop at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
