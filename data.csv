@@ -188,3 +188,4 @@ station,stationName,fromLine,fromStation,fromStationName,fromTrack,fromPosition,
 900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S3,900000025423,Messe Süd,,0.5,false
 900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S9,900000025423,Messe Süd,,0.5,false
 900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5,false
+900000009202,Osloer Str.,U8,900000009203,U Pankstr.,,0.3,U9,900000009201,U Nauener Platz,,0.3,false
