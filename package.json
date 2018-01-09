@@ -39,7 +39,7 @@
 		"lodash.isstring": "^4.0.1",
 		"tape": "^4.8.0",
 		"tape-promise": "^2.0.1",
-		"vbb-stations": "^5.8.0"
+		"vbb-stations": "^6.0.0"
 	},
 	"scripts": {
 		"test": "node test.js",
