@@ -189,3 +189,17 @@ station,stationName,fromLine,fromStation,fromStationName,fromTrack,fromPosition,
 900000024102,Westkreuz,S7,900000048101,Grunewald,,0.5,S9,900000025423,Messe Süd,,0.5,false
 900000024102,Westkreuz,S9,900000025423,Messe Süd,,0.5,S7,900000048101,Grunewald,,0.5,false
 900000009202,Osloer Str.,U8,900000009203,U Pankstr.,,0.3,U9,900000009201,U Nauener Platz,,0.3,false
+900000079221,Hermannstraße,S41,900000078201,Neukölln,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S42,900000068201,Tempelhof,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S45,900000078201,Neukölln,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S45,900000068201,Tempelhof,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S46,900000078201,Neukölln,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S46,900000068201,Tempelhof,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,S47,900000078201,Neukölln,,0.5,U8,900000079201,Leinestraße,,1,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S41,900000068201,Tempelhof,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S42,900000078201,Neukölln,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S45,900000068201,Tempelhof,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S45,900000078201,Neukölln,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S46,900000068201,Tempelhof,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S46,900000078201,Neukölln,,0.5,false
+900000079221,Hermannstraße,U8,900000079201,Leinestraße,,0,S47,900000078201,Neukölln,,0.5,false
