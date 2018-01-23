@@ -27,15 +27,15 @@ If you call the function exported by the module, it will return a [Promise](http
     {
         station: '900000024201',
         stationName: 'Bismarckstraße',
-        fromLine: 'U7',
+        fromLines: ['U7'],
         fromStation: '900000022202',
         fromStationName: 'Richard-Wagner-Platz',
-        fromTrack: null,
+        fromTrack: undefined,
         fromPosition: 0.2,
-        toLine: 'U2',
+        toLines: ['U2'],
         toStation: '900000022101',
         toStationName: 'Sophie-Charlotte-Platz',
-        toTrack: null,
+        toTrack: undefined,
         toPosition: 0.5,
         samePlatform: false
     }
@@ -45,9 +45,9 @@ If you call the function exported by the module, it will return a [Promise](http
 
 ## Data structure
 
-The dataset is located in `data.csv`, a [CSV](https://frictionlessdata.io/guides/csv/) file which you can edit using a text editor or spreadsheets like `Microsoft Excel` or [`Libreoffice Calc`](https://www.libreoffice.org/discover/calc/).
+The dataset is located in `data.ndjson`, a [ndjson](http://ndjson.org/) file which you can edit using a text editor.
 
-Let's take the following example: I want to take the `U7` in the direction of `Rudow` to `Bismarckstraße`, where I want to change to the `U2` towards `Ruhleben`.
+Let's take the following example: I want to take the `S46` in the direction of `Königs Wusterhausen` to `Heidelberger Platz`, where I want to change to the `U3` towards `Krumme Lanke`.
 
 ![an illustration of the keys](illustration.svg)
 
@@ -55,30 +55,30 @@ The dataset row would then contain the following information:
 
 | key name | description | required | example |
 | -------- | ----------- | -------- | ------- |
-| `station` | Interchange station ID\* | yes | `900000024201` |
-| `stationName` | Interchange station name (only for readability of the dataset) | no | `Bismarckstaße` |
-| `fromLine`    | Line name before changing | yes | `U7` |
-| `fromStation` | *Previous* station ID\* on the line before changing | yes | `900000022202` |
-| `fromStationName` | *Previous* station name on the line before changing (only for readability of the dataset) | no | `Richard-Wagner-Platz` |
+| `station` | Interchange station ID\* | yes | `900000045102` |
+| `stationName` | Interchange station name (only for readability of the dataset) | no | `Heidelberger Platz` |
+| `fromLines`    | "Arriving" line names. Note that the lines must run on the same track and share the same `fromStation`. For the lines that fit those criteria, there should exist only one dataset row grouping them, though. This key exists mostly because information on `fromTrack` is much harder to get/remember than the rather simple line names. | yes | `["S42", "S46"]` |
+| `fromStation` | *Previous* station ID\* on the line before changing | yes | `900000044101` |
+| `fromStationName` | *Previous* station name on the line before changing (only for readability of the dataset) | no | `Hohenzollerndamm` |
 | `fromTrack`| Arrival platform (track)\*\* | no | *empty*
-| `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front "driver's" end of the station) \*\*\* | yes | `0.5` (in the middle of the platform) |
-| `toLine`    | Line name after changing | yes | `U2` |
-| `toStation` | Next station (ID\*) on the line after changing | yes | `900000022101` |
-| `toStationName` | Next station (name) on the line after changing (only for readability of the dataset) | no | `Sophie-Charlotte-Platz` |
+| `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front "driver's" end of the station) \*\*\* | yes | `1` |
+| `toLines`    | "Departing" line names, see `fromLines` | yes | `["U3"]` |
+| `toStation` | Next station (ID\*) on the line after changing | yes | `900000045101` |
+| `toStationName` | Next station (name) on the line after changing (only for readability of the dataset) | no | `Rüdesheimer Platz` |
 | `toTrack`| Departure platform (track)\*\* | no | *empty*
-| `toPosition`| Number where to enter the departure platform.\*\*\* See also `fromPosition`. | yes | `0.2` (far in the front of the platform) |
+| `toPosition`| Number where to enter the departure platform.\*\*\* See also `fromPosition`. | yes | `1` |
 | `samePlatform` | Set to `true` if both trains stop at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
 
 \* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
 
-\*\* If unknown, just leave empty like I did here.
+\*\* If unknown, just leave empty/unset like I did here.
 
 \*\*\* see [additional guidelines](#additional-guidelines)
 
-Finally, our example would give us the following data row for the CSV file:
+Finally, our example would give us the following data row for the NDJSON file:
 
-```csv
-900000024201,Bismarckstraße,U7,900000022202,Richard-Wagner-Platz,,0.2,U2,900000022101,Sophie-Charlotte-Platz,,0.5,false
+```json
+{"station":"900000045102","stationName":"Heidelberger Platz","fromLines":["S42","S46"],"fromStation":"900000044101","fromStationName":"Hohenzollerndamm","fromPosition":1,"toLines":["U3"],"toStation":"900000045101","toStationName":"Rüdesheimer Platz","toPosition":1,"samePlatform":false}
 ```
 
 ### Additional guidelines
