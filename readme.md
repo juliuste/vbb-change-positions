@@ -86,7 +86,7 @@ Finally, our example would give us the following data row for the NDJSON file:
 - If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
 - For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station.
 - If there are multiple ways connecting to platforms, either add separate rows for all of them or just add the shortest connection.
-- `fromLine` and `toLine` must be different, `fromStation` and `toStation` can be identical, however.
+- `fromLines` and `toLines` must be different, `fromStation` and `toStation` can be identical, however.
 
 ## Contributing
 
