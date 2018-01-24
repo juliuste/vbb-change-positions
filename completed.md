@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **37** of **70**
+Number of completed stations: **38** of **70**
 
 (Complete in a way of covered-all-line-relations, rather than even covered-all-possible-physical-routes. So there can still be uncovered routes (especially via escalators) when a station is marked as *completed*)
 
@@ -8,6 +8,7 @@ Number of completed stations: **37** of **70**
 
 - Kurfürstendamm
 - Wittenbergplatz
+- Nollendorfplatz
 - Gleisdreieck
 - Möckernbrücke
 - Hallesches Tor
@@ -18,17 +19,20 @@ Number of completed stations: **37** of **70**
 
 - Kaiserdamm
 - Wittenbergplatz
+- Nollendorfplatz
 - Gleisdreieck
 - Stadtmitte
 
 ## U3
 
+- Nollendorfplatz
 - Wittenbergplatz
 - Spichernstraße
 - Heidelberger Platz
 
 ## U4
 
+- Nollendorfplatz
 - Bayerischer Platz
 - Innsbrucker Platz
 
