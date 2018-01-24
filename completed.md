@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **18**
+Number of completed stations: **19**
 
 ## U1
 
@@ -38,6 +38,10 @@ Number of completed stations: **18**
 - Bayerischer Platz
 - Rathaus Spandau
 
+## U8
+
+- Wittenau
+
 ## U9
 
 - Westhafen
@@ -63,12 +67,17 @@ Number of completed stations: **18**
 
 ## S1
 
+- Wittenau
 - Schöneberg
 - Wannsee
 
 ## S2
 
 - Tegel
+
+## S26
+
+- Wittenau
 
 ## S7
 
