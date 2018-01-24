@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **13**
+Number of completed stations: **14**
 
 ## U1
 
@@ -28,6 +28,7 @@ Number of completed stations: **13**
 ## U7
 
 - Mehringdamm
+- Rathaus Spandau
 
 ## U9
 
@@ -45,9 +46,10 @@ Number of completed stations: **13**
 - Schöneberg
 - Tempelhof
 
-## Stadtbahn
+## Stadtbahn (bis Spandau)
 
 - Westkreuz
+- Spandau
 
 ## S1
 
