@@ -77,6 +77,7 @@ Number of completed stations: **24** of **69**
 
 ## S1
 
+- Birkenwerder
 - Hohen Neuendorf
 - Waidmannslust
 - Wittenau
@@ -104,4 +105,5 @@ Number of completed stations: **24** of **69**
 
 ## S8
 
+- Birkenwerder
 - Hohen Neuendorf
