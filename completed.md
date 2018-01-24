@@ -1,11 +1,12 @@
 # Completed stations
 
-Number of completed stations: **14**
+Number of completed stations: **15**
 
 ## U1
 
 - Kurfürstendamm
 - Gleisdreieck
+- Warschauer Straße
 
 ## U2
 
@@ -48,6 +49,7 @@ Number of completed stations: **14**
 
 ## Stadtbahn (bis Spandau)
 
+- Warschauer Straße
 - Westkreuz
 - Spandau
 
