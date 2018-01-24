@@ -92,7 +92,7 @@ Finally, our example would give us the following data row for the NDJSON file:
 
 Please note that this dataset **only contains data for metro, suburban and regional lines**; buses and trams are not included.
 
-Have a look at [this list](completed.md) for a collection of stations that are covered already.
+Have a look at [this list](todo.md) for an overview of stations that are not covered yet.
 
 If you want to add information to the dataset, **[fork this repository](https://help.github.com/articles/fork-a-repo/), add information and finally [submit a pull request](https://help.github.com/articles/about-pull-requests/)**. If you don't know how any of this works, you can also just [open an issue](https://github.com/juliuste/vbb-change-positions/issues) with the information you want to add in text form and I'll add it to the dataset for you. The same applies if you have found an error or want to change anything about the data structure.
 
