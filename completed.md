@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **20**
+Number of completed stations: **21**
 
 ## U1
 
@@ -23,6 +23,10 @@ Number of completed stations: **20**
 
 - Bayerischer Platz
 - Innsbrucker Platz
+
+## U55
+
+- Brandenburger Tor
 
 ## U6
 
@@ -68,6 +72,7 @@ Number of completed stations: **20**
 
 ## Nord-Süd-Bahn
 
+- Brandenburger Tor
 - Yorckstraße
 
 ## S1
