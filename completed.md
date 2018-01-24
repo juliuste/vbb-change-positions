@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **28** of **69**
+Number of completed stations: **29** of **69**
 
 ## U1
 
@@ -100,6 +100,14 @@ Number of completed stations: **28** of **69**
 - Wittenau
 - Schönholz
 
+## S45
+
+- Adlershof
+
+## S46
+
+- Adlershof
+
 ## S5
 
 - Friedrichsfelde Ost
@@ -120,3 +128,8 @@ Number of completed stations: **28** of **69**
 - Birkenwerder
 - Hohen Neuendorf
 - Blankenburg
+- Adlershof
+
+## S9
+
+- Adlershof
