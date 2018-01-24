@@ -2,6 +2,8 @@
 
 Number of completed stations: **33** of **70**
 
+(Complete in a way of covered-all-line-relations, rather than even covered-all-possible-physical-routes. So there can still be uncovered routes (especially via escalators) when a station is marked as *completed*)
+
 ## U1
 
 - Kurfürstendamm
