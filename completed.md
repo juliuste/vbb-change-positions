@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **17**
+Number of completed stations: **18**
 
 ## U1
 
@@ -26,6 +26,7 @@ Number of completed stations: **17**
 
 ## U6
 
+- Alt-Tegel
 - Wedding
 - Stadtmitte
 - Mehringdamm
@@ -64,6 +65,10 @@ Number of completed stations: **17**
 
 - Schöneberg
 - Wannsee
+
+## S2
+
+- Tegel
 
 ## S7
 
