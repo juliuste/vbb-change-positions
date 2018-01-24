@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **21**
+Number of completed stations: **21** of **69**
 
 ## U1
 
