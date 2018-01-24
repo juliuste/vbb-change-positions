@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **26** of **69**
+Number of completed stations: **27** of **69**
 
 ## U1
 
@@ -103,6 +103,11 @@ Number of completed stations: **26** of **69**
 ## S7
 
 - Wannsee
+- Springpfuhl
+
+## S75
+
+- Springpfuhl
 
 ## S8
 
