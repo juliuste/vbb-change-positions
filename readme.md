@@ -57,7 +57,7 @@ The dataset row would then contain the following information:
 | -------- | ----------- | -------- | ------- |
 | `station` | Interchange station ID\* | yes | `900000045102` |
 | `stationName` | Interchange station name (only for readability of the dataset) | no | `Heidelberger Platz` |
-| `fromLines`    | "Arriving" line names. Note that the lines must run on the same track and share the same `fromStation`. For the lines that fit those criteria, there should exist only one dataset row grouping them, though. This key exists mostly because information on `fromTrack` is much harder to get/remember than the rather simple line names. | yes | `["S42", "S46"]` |
+| `fromLines`    | "Arriving" line names. Note that the lines must run on the same platform and share the same `fromStation`. For the lines that fit those criteria, there should exist only one dataset row grouping them, though. This key exists mostly because information on `fromTrack` is much harder to get/remember than the rather simple line names and sometimes the track changes but the platform doesn't. | yes | `["S42", "S46"]` |
 | `fromStation` | *Previous* station ID\* on the line before changing | yes | `900000044101` |
 | `fromStationName` | *Previous* station name on the line before changing (only for readability of the dataset) | no | `Hohenzollerndamm` |
 | `fromTrack`| Arrival platform (track)\*\* | no | *empty*
