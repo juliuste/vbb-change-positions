@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **16**
+Number of completed stations: **17**
 
 ## U1
 
@@ -21,6 +21,7 @@ Number of completed stations: **16**
 
 ## U4
 
+- Bayerischer Platz
 - Innsbrucker Platz
 
 ## U6
@@ -33,6 +34,7 @@ Number of completed stations: **16**
 ## U7
 
 - Mehringdamm
+- Bayerischer Platz
 - Rathaus Spandau
 
 ## U9
