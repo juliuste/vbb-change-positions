@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **19**
+Number of completed stations: **20**
 
 ## U1
 
@@ -35,6 +35,7 @@ Number of completed stations: **19**
 ## U7
 
 - Mehringdamm
+- Yorckstraße
 - Bayerischer Platz
 - Rathaus Spandau
 
@@ -64,6 +65,10 @@ Number of completed stations: **19**
 - Warschauer Straße
 - Westkreuz
 - Spandau
+
+## Nord-Süd-Bahn
+
+- Yorckstraße
 
 ## S1
 
