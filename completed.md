@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **25** of **69**
+Number of completed stations: **26** of **69**
 
 ## U1
 
@@ -87,10 +87,11 @@ Number of completed stations: **25** of **69**
 
 ## S2
 
-- Tegel
+- Blankenburg
 
 ## S25
 
+- Tegel
 - Schönholz
 
 ## S26
@@ -107,3 +108,4 @@ Number of completed stations: **25** of **69**
 
 - Birkenwerder
 - Hohen Neuendorf
+- Blankenburg
