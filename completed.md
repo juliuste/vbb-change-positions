@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **30** of **69**
+Number of completed stations: **31** of **70**
 
 ## U1
 
@@ -108,6 +108,7 @@ Number of completed stations: **30** of **69**
 
 - Adlershof
 - Grünau
+- Zeuthen
 
 ## S5
 
@@ -131,6 +132,7 @@ Number of completed stations: **30** of **69**
 - Blankenburg
 - Adlershof
 - Grünau
+- Zeuthen
 
 ## S9
 
