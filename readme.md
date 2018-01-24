@@ -45,7 +45,7 @@ If you call the function exported by the module, it will return a [Promise](http
 
 ## Data structure
 
-The dataset is located in `data.ndjson`, a [ndjson](http://ndjson.org/) file which you can edit using a text editor.
+The dataset is located in `data.ndjson`, a [ndjson](http://ndjson.org/) file which you can edit using a text editor or [vbb-change-positions-cli](https://github.com/juliuste/vbb-change-positions-cli).
 
 Let's take the following example: I want to take the `S46` in the direction of `Königs Wusterhausen` to `Heidelberger Platz`, where I want to change to the `U3` towards `Krumme Lanke`.
 
