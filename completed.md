@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **31** of **70**
+Number of completed stations: **32** of **70**
 
 ## U1
 
@@ -31,6 +31,7 @@ Number of completed stations: **31** of **70**
 ## U6
 
 - Alt-Tegel
+- Leopoldplatz
 - Wedding
 - Stadtmitte
 - Mehringdamm
@@ -49,6 +50,7 @@ Number of completed stations: **31** of **70**
 
 ## U9
 
+- Leopoldplatz
 - Westhafen
 - Kurfürstendamm
 - Spichernstraße
