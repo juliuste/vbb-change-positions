@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **12**
+Number of completed stations: **13**
 
 ## U1
 
@@ -52,3 +52,8 @@ Number of completed stations: **12**
 ## S1
 
 - Schöneberg
+- Wannsee
+
+## S7
+
+- Wannsee
