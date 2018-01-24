@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **21** of **69**
+Number of completed stations: **22** of **69**
 
 ## U1
 
@@ -77,6 +77,7 @@ Number of completed stations: **21** of **69**
 
 ## S1
 
+- Waidmannslust
 - Wittenau
 - Schöneberg
 - Wannsee
@@ -87,6 +88,7 @@ Number of completed stations: **21** of **69**
 
 ## S26
 
+- Waidmannslust
 - Wittenau
 
 ## S7
