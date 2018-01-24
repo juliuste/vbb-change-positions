@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **27** of **69**
+Number of completed stations: **28** of **69**
 
 ## U1
 
@@ -100,14 +100,20 @@ Number of completed stations: **27** of **69**
 - Wittenau
 - Schönholz
 
+## S5
+
+- Friedrichsfelde Ost
+
 ## S7
 
 - Wannsee
 - Springpfuhl
+- Friedrichsfelde Ost
 
 ## S75
 
 - Springpfuhl
+- Friedrichsfelde Ost
 
 ## S8
 
