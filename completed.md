@@ -1,11 +1,12 @@
 # Completed stations
 
-Number of completed stations: **32** of **70**
+Number of completed stations: **33** of **70**
 
 ## U1
 
 - Kurfürstendamm
 - Gleisdreieck
+- Kottbusser Tor
 - Warschauer Straße
 
 ## U2
@@ -47,6 +48,7 @@ Number of completed stations: **32** of **70**
 ## U8
 
 - Wittenau
+- Kottbusser Tor
 
 ## U9
 
