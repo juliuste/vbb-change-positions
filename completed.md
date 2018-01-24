@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **15**
+Number of completed stations: **16**
 
 ## U1
 
@@ -18,6 +18,10 @@ Number of completed stations: **15**
 
 - Spichernstraße
 - Heidelberger Platz
+
+## U4
+
+- Innsbrucker Platz
 
 ## U6
 
@@ -44,6 +48,7 @@ Number of completed stations: **15**
 - Messe Nord/ICC
 - Westkreuz
 - Heidelberger Platz
+- Innsbrucker Platz
 - Schöneberg
 - Tempelhof
 
