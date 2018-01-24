@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **22** of **69**
+Number of completed stations: **23** of **69**
 
 ## U1
 
@@ -79,6 +79,7 @@ Number of completed stations: **22** of **69**
 
 - Waidmannslust
 - Wittenau
+- Schönholz
 - Schöneberg
 - Wannsee
 
@@ -86,10 +87,15 @@ Number of completed stations: **22** of **69**
 
 - Tegel
 
+## S25
+
+- Schönholz
+
 ## S26
 
 - Waidmannslust
 - Wittenau
+- Schönholz
 
 ## S7
 
