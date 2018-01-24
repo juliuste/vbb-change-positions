@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **29** of **69**
+Number of completed stations: **30** of **69**
 
 ## U1
 
@@ -107,6 +107,7 @@ Number of completed stations: **29** of **69**
 ## S46
 
 - Adlershof
+- Grünau
 
 ## S5
 
@@ -129,6 +130,7 @@ Number of completed stations: **29** of **69**
 - Hohen Neuendorf
 - Blankenburg
 - Adlershof
+- Grünau
 
 ## S9
 
