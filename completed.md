@@ -1,6 +1,6 @@
 # Completed stations
 
-Number of completed stations: **23** of **69**
+Number of completed stations: **24** of **69**
 
 ## U1
 
@@ -77,6 +77,7 @@ Number of completed stations: **23** of **69**
 
 ## S1
 
+- Hohen Neuendorf
 - Waidmannslust
 - Wittenau
 - Schönholz
@@ -100,3 +101,7 @@ Number of completed stations: **23** of **69**
 ## S7
 
 - Wannsee
+
+## S8
+
+- Hohen Neuendorf
