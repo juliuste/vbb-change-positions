@@ -9,71 +9,99 @@ Number of completed stations: **38** of **70**
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |✅|❌|❌|✅|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|❌|
 
-## U1 ✅
+## U1 ✅ (8/8)
 
-- Kurfürstendamm
-- Wittenbergplatz
-- Nollendorfplatz
-- Gleisdreieck
-- Möckernbrücke
-- Hallesches Tor
-- Kottbusser Tor
-- Warschauer Straße
+- Kurfürstendamm ✅
+- Wittenbergplatz ✅
+- Nollendorfplatz ✅
+- Gleisdreieck ✅
+- Möckernbrücke ✅
+- Hallesches Tor ✅
+- Kottbusser Tor ✅
+- Warschauer Straße ✅
 
-## U2
+## U2 ❌ (5/11)
 
-- Kaiserdamm
-- Wittenbergplatz
-- Nollendorfplatz
-- Gleisdreieck
-- Stadtmitte
+- Kaiserdamm ✅
+- Bismarckstraße ❌
+- Zoologischer Garten ❌
+- Wittenbergplatz ✅
+- Nollendorfplatz ✅
+- Gleisdreieck ✅
+- Potsdamer Platz ❌
+- Stadtmitte ✅
+- Alexanderplatz ❌
+- Schönhauser Allee ❌
+- Pankow ❌
 
-## U3
+## U3 ❌ (4/5)
 
-- Nollendorfplatz
-- Wittenbergplatz
-- Spichernstraße
-- Heidelberger Platz
+- Heidelberger Platz ✅
+- Fehrbelliner Platz ❌
+- Spichernstraße ✅
+- Wittenbergplatz ✅
+- Nollendorfplatz ✅
 
-## U4 ✅
+## U4 ✅ (3/3)
 
-- Nollendorfplatz
-- Bayerischer Platz
-- Innsbrucker Platz
+- Innsbrucker Platz ✅
+- Bayerischer Platz ✅
+- Nollendorfplatz ✅
 
-## U55
+## U55 ❌ (1/2)
 
-- Brandenburger Tor
+- Hauptbahnhof ❌
+- Brandenburger Tor ✅
 
-## U6
+## U6 ❌ (7/8)
 
-- Alt-Tegel
-- Leopoldplatz
-- Wedding
-- Stadtmitte
-- Hallesches Tor
-- Mehringdamm
-- Tempelhof
+- Alt-Tegel ✅
+- Leopoldplatz ✅
+- Wedding ✅
+- Friedrichstraße ❌
+- Stadtmitte ✅
+- Hallesches Tor ✅
+- Mehringdamm ✅
+- Tempelhof ✅
 
-## U7
+## U7 ❌ (5/12)
 
-- Mehringdamm
-- Möckernbrücke
-- Yorckstraße
-- Bayerischer Platz
-- Rathaus Spandau
+- Rathaus Spandau ✅
+- Jungfernheide ❌
+- Bismarckstraße ❌
+- Wilmersdorfer Straße ❌
+- Fehrbelliner Platz ❌
+- Berliner Straße ❌
+- Bayerischer Platz ✅
+- Yorckstraße ✅
+- Möckernbrücke ✅
+- Mehringdamm ✅
+- Hermannplatz ❌
+- Neukölln ❌
 
-## U8
+## U8 ❌ (2/9)
 
-- Wittenau
-- Kottbusser Tor
+- Wittenau ✅
+- Karl-Bonhoeffer-Nervenklinik ❌
+- Osloer Straße ❌
+- Gesundbrunnen ❌
+- Alexanderplatz ❌
+- Jannowitzbrücke ❌
+- Kottbusser Tor ✅
+- Hermannplatz ❌
+- Hermannstraße ❌
 
-## U9
+## U9 ❌ (4/9)
 
-- Leopoldplatz
-- Westhafen
-- Kurfürstendamm
-- Spichernstraße
+- Osloer Straße ❌
+- Leopoldplatz ✅
+- Westhafen ✅
+- Zoologischer Garten ❌
+- Kurfürstendamm ✅
+- Spichernstraße ✅
+- Berliner Straße ❌
+- Bundesplatz ❌
+- Rathaus Steglitz ❌
 
 ## Ringbahn
 
