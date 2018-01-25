@@ -80,8 +80,20 @@ Finally, our example would give us the following data row for the NDJSON file:
 ```json
 {"station":"900000045102","stationName":"Heidelberger Platz","fromLines":["S42","S46"],"fromStation":"900000044101","fromStationName":"Hohenzollerndamm","fromPosition":1,"toLines":["U3"],"toStation":"900000045101","toStationName":"Rüdesheimer Platz","toPosition":1,"samePlatform":false}
 ```
-
 ### Additional guidelines
+
+#### Parallel lines
+
+There's a common situation where multiple lines run in parallel for a few stations in a row, like `S41/S42` and `S46` between `Westend` and `Neukölln` or `S1` and `S2` between `Yorckstraße` and `Bornholmer Straße`. A general rule of thumb for this case is that only if it's your last chance to change between two lines at a station, this specific interchange scenario should be mapped. To give you a few examples:
+
+- `Neukölln` should be mapped for `S42@Hermannstraße -> S45/S46/S47@Köllnische Heide`, `S45/S46@Hermannstraße -> S42@Sonnenallee` and `S41/S42@Sonnenallee <-> S45/S46/S47@Köllnische Heide`, making 4 interchange scenarios. (For simplicity, I ignored the `U7` in this example, that should be mapped as well, of course).
+- `Westend` should be mapped for `S46@Messe Nord/ICC -> S41@Jungernheide`, because the S46 terminates here, making it the last possible point of interchange. No other interchanges should be mapped for this station, though.
+- `Plänterwald` should not be mapped at all, because it's not your *last chance* to change between any of the lines running there.
+- `Priesterweg` should be mapped for 4 scenarios: `S2@Südkreuz -> S25/S26@Südende`, `S25/S26@Südkreuz -> S2@Attilastraße` and `S2@Attilastraße <-> S25/S26@Südende`
+- `Heidelberger Platz` should be mapped for interchanges `S41/S42/S46 <-> U3`, but not for interchanges like `S41 -> S46` or even `S41 -> S42`
+- `Flughafen Berlin-Schönefeld` Even though technically the last station to "change" between `S9` and `S45`, no interchanges should be mapped since **both** lines terminate here. For places where only one line terminates while the others continue, see the `Westend` example.
+
+#### Other
 
 - If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
 - For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station. (*not strictly enforced yet, CLI doesn't support this atm*)
@@ -92,7 +104,7 @@ Finally, our example would give us the following data row for the NDJSON file:
 
 Please note that this dataset **only contains data for metro, suburban and regional lines**; buses and trams are not included.
 
-Have a look at [this list](todo.md) for an overview of stations that are not covered yet.
+Have a look at [this list](todo.md) for an overview of stations that are not yet covered.
 
 If you want to add information to the dataset, **[fork this repository](https://help.github.com/articles/fork-a-repo/), add information and finally [submit a pull request](https://help.github.com/articles/about-pull-requests/)**. If you don't know how any of this works, you can also just [open an issue](https://github.com/juliuste/vbb-change-positions/issues) with the information you want to add in text form and I'll add it to the dataset for you. The same applies if you have found an error or want to change anything about the data structure.
 
