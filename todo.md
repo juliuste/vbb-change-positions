@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **48** of **70**
+Number of completed stations: **49** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -47,10 +47,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bayerischer Platz ✅
 - Nollendorfplatz ✅
 
-## U5 ❌ (1/4)
+## U5 ❌ (2/4)
 
 - Alexanderplatz ❌
-- Frankfurter Allee ❌
+- Frankfurter Allee ✅
 - Lichtenberg ❌
 - Wuhletal ✅
 
@@ -181,7 +181,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (12/19)
+## S41/S42 ❌ (13/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
@@ -200,7 +200,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Neukölln ❌
 - Treptower Park ✅
 - Ostkreuz ❌
-- Frankfurter Allee ❌
+- Frankfurter Allee ✅
 - Schönhauser Allee ✅
 
 ## S45 ❌ (3/7)
@@ -278,7 +278,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S8 ❌ (9/14)
+## S8 ❌ (10/14)
 
 - Zeuthen ✅
 - Grünau ✅
@@ -287,7 +287,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ❌
 - Treptower Park ✅
 - Ostkreuz ❌
-- Frankfurter Allee ❌
+- Frankfurter Allee ✅
 - Schönhauser Allee ✅
 - Bornholmer Straße ✅
 - Pankow ❌
@@ -295,7 +295,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hohen Neuendorf ✅
 - Birkenwerder ✅
 
-## S85 ❌ (5/10)
+## S85 ❌ (6/10)
 
 - Grünau ✅
 - Adlershof ✅
@@ -303,7 +303,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ❌
 - Treptower Park ✅
 - Ostkreuz ❌
-- Frankfurter Allee ❌
+- Frankfurter Allee ✅
 - Schönhauser Allee ✅
 - Bornholmer Straße ✅
 - Pankow ❌
