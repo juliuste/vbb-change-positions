@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **50** of **70**
+Number of completed stations: **51** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -181,13 +181,13 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (14/19)
+## S41/S42 ❌ (15/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
 - Westhafen ✅
 - Jungfernheide ✅
-- Westend ❌
+- Westend ✅
 - Messe Nord/ICC ✅
 - Westkreuz ✅
 - Heidelberger Platz ✅
@@ -213,9 +213,9 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Schöneweide ❌
 - Adlershof ✅
 
-## S46 ❌ (11/16)
+## S46 ❌ (12/16)
 
-- Westend ❌
+- Westend ✅
 - Messe Nord/ICC ✅
 - Westkreuz ✅
 - Heidelberger Platz ✅
