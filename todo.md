@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **47** of **70**
+Number of completed stations: **48** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -70,10 +70,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Mehringdamm ✅
 - Tempelhof ✅
 
-## U7 ❌ (6/12)
+## U7 ❌ (7/12)
 
 - Rathaus Spandau ✅
-- Jungfernheide ❌
+- Jungfernheide ✅
 - Bismarckstraße ✅
 - Wilmersdorfer Straße ❌
 - Fehrbelliner Platz ❌
@@ -181,12 +181,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (11/19)
+## S41/S42 ❌ (12/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
 - Westhafen ✅
-- Jungfernheide ❌
+- Jungfernheide ✅
 - Westend ❌
 - Messe Nord/ICC ✅
 - Westkreuz ✅
