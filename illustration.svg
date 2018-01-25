@@ -14,8 +14,8 @@
 			</g>
 			<g fill="#000" font-family="FiraCode-Retina, Fira Code, monospace" font-size="9" font-weight="500">
 				<text><tspan x="51" y="45">station</tspan></text>
-				<text><tspan x="30" y="26">fromLine</tspan></text>
-				<text><tspan x="36" y="63">toLine</tspan></text>
+				<text><tspan x="30" y="26">fromLines</tspan></text>
+				<text><tspan x="36" y="63">toLines</tspan></text>
 				<text><tspan x="26" y="77">toStation</tspan></text>
 				<text><tspan x="11" y="8">fromStation</tspan></text>
 			</g>
