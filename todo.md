@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **57** of **70**
+Number of completed stations: **57** of **71**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
