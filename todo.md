@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **53** of **70**
+Number of completed stations: **54** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -19,11 +19,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Kottbusser Tor ✅
 - Warschauer Straße ✅
 
-## U2 ❌ (7/11)
+## U2 ❌ (8/11)
 
 - Kaiserdamm ✅
 - Bismarckstraße ✅
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Wittenbergplatz ✅
 - Nollendorfplatz ✅
 - Gleisdreieck ✅
@@ -97,12 +97,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Hermannstraße ✅
 
-## U9 ❌ (5/9)
+## U9 ❌ (6/9)
 
 - Osloer Straße ❌
 - Leopoldplatz ✅
 - Westhafen ✅
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Kurfürstendamm ✅
 - Spichernstraße ✅
 - Berliner Straße ✅
@@ -168,12 +168,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Wittenau ✅
 - Waidmannslust ✅
 
-## S3 ❌ (4/10)
+## S3 ❌ (5/10)
 
 - Spandau ✅
 - Westkreuz ✅
 - Charlottenburg ❌
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ❌
 - Alexanderplatz ❌
@@ -239,11 +239,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ❌
 - Schöneweide ❌
 
-## S5 ❌ (5/12)
+## S5 ❌ (6/12)
 
 - Westkreuz ✅
 - Charlottenburg ❌
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ❌
 - Alexanderplatz ❌
@@ -254,13 +254,13 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Wuhletal ✅
 
-## S7 ❌ (7/14)
+## S7 ❌ (8/14)
 
 - Wannsee ✅
 - Nikolassee ✅
 - Westkreuz ✅
 - Charlottenburg ❌
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ❌
 - Alexanderplatz ❌
@@ -308,12 +308,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bornholmer Straße ✅
 - Pankow ❌
 
-## S9 ❌ (6/13)
+## S9 ❌ (7/13)
 
 - Spandau ✅
 - Westkreuz ✅
 - Charlottenburg ❌
-- Zoologischer Garten ❌
+- Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ❌
 - Alexanderplatz ❌
