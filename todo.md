@@ -103,89 +103,217 @@ Number of completed stations: **38** of **70**
 - Bundesplatz ❌
 - Rathaus Steglitz ❌
 
-## Ringbahn
+## S1 ❌ (10/15)
 
-- Wedding
-- Westhafen
-- Messe Nord/ICC
-- Westkreuz
-- Heidelberger Platz
-- Innsbrucker Platz
-- Schöneberg
-- Tempelhof
+- Wannsee ✅
+- Nikolassee ✅
+- Rathaus Steglitz ❌
+- Schöneberg ✅
+- Yorckstraße ✅
+- Potsdamer Platz ❌
+- Brandenburger Tor ✅
+- Friedrichstraße ❌
+- Gesundbrunnen ❌
+- Bornholmer Straße ❌
+- Schönholz ✅
+- Wittenau ✅
+- Waidmannslust ✅
+- Hohen Neuendorf ✅ *safety-check again*
+- Birkenwerder ✅
 
-## Stadtbahn (bis Spandau)
+## S2 ❌ (3/10)
 
-- Warschauer Straße
-- Westkreuz
-- Spandau
+- Priesterweg ❌
+- Südkreuz ❌
+- Yorckstraße ✅
+- Potsdamer Platz ❌
+- Brandenburger Tor ✅
+- Friedrichstraße ❌
+- Gesundbrunnen ❌
+- Bornholmer Straße ❌
+- Pankow ❌
+- Blankenburg ✅
 
-## Nord-Süd-Bahn
+## S25 ❌ (4/11)
 
-- Brandenburger Tor
-- Yorckstraße
+- Priesterweg ❌
+- Südkreuz ❌
+- Yorckstraße ✅
+- Potsdamer Platz ❌
+- Brandenburger Tor ✅
+- Friedrichstraße ❌
+- Gesundbrunnen ❌
+- Bornholmer Straße ❌
+- Schönholz ✅
+- Karl-Bonhoeffer-Nervenklinik ❌
+- Tegel ✅
 
-## S1
+## S26 ❌ (5/11)
 
-- Birkenwerder
-- Hohen Neuendorf
-- Waidmannslust
-- Wittenau
-- Schönholz
-- Schöneberg
-- Nikolassee
-- Wannsee
+- Priesterweg ❌
+- Südkreuz ❌
+- Yorckstraße ✅
+- Potsdamer Platz ❌
+- Brandenburger Tor ✅
+- Friedrichstraße ❌
+- Gesundbrunnen ❌
+- Bornholmer Straße ❌
+- Schönholz ✅
+- Wittenau ✅
+- Waidmannslust ✅
 
-## S2
+## S3 ❌ (3/10)
 
-- Blankenburg
+- Spandau ✅
+- Westkreuz ✅
+- Charlottenburg ❌
+- Zoologischer Garten ❌
+- Hauptbahnhof ❌
+- Friedrichstraße ❌
+- Alexanderplatz ❌
+- Jannowitzbrücke ❌
+- Warschauer Straße ✅
+- Ostkreuz ❌
 
-## S25
+## S41/S42 ❌ (8/19)
 
-- Tegel
-- Schönholz
+- Gesundbrunnen ❌
+- Wedding ✅
+- Westhafen ✅
+- Jungfernheide ❌
+- Westend ❌
+- Messe Nord/ICC ✅
+- Westkreuz ✅
+- Heidelberger Platz ✅
+- Bundesplatz ❌
+- Innsbrucker Platz ✅
+- Schöneberg ✅
+- Südkreuz ❌
+- Tempelhof ✅
+- Hermannstraße ❌
+- Neukölln ❌
+- Treptower Park ❌
+- Ostkreuz ❌
+- Frankfurter Allee ❌
+- Schönhauser Allee ❌
 
-## S26
+## S45 ❌ (2/7)
 
-- Waidmannslust
-- Wittenau
-- Schönholz
+- Südkreuz ❌
+- Tempelhof ✅
+- Hermannstraße ❌
+- Neukölln ❌
+- Baumschulenweg ❌
+- Schöneweide ❌
+- Adlershof ✅
 
-## S45
+## S46 ❌ (9/16)
 
-- Adlershof
+- Westend ❌
+- Messe Nord/ICC ✅
+- Westkreuz ✅
+- Heidelberger Platz ✅
+- Bundesplatz ❌
+- Innsbrucker Platz ✅
+- Schöneberg ✅
+- Südkreuz ❌
+- Tempelhof ✅
+- Hermannstraße ❌
+- Neukölln ❌
+- Baumschulenweg ❌
+- Schöneweide ❌
+- Adlershof ✅
+- Grünau ✅
+- Zeuthen ✅
 
-## S46
+## S47 ❌ (0/4)
 
-- Adlershof
-- Grünau
-- Zeuthen
+- Hermannstraße ❌
+- Neukölln ❌
+- Baumschulenweg ❌
+- Schöneweide ❌
 
-## S5
+## S5 ❌ (3/12)
 
-- Friedrichsfelde Ost
+- Westkreuz ✅
+- Charlottenburg ❌
+- Zoologischer Garten ❌
+- Hauptbahnhof ❌
+- Friedrichstraße ❌
+- Alexanderplatz ❌
+- Jannowitzbrücke ❌
+- Warschauer Straße ✅
+- Ostkreuz ❌
+- Lichtenberg ❌
+- Friedrichsfelde Ost ✅
+- Wuhletal ❌
 
-## S7
+## S7 ❌ (6/14)
 
-- Wannsee
-- Nikolassee
-- Springpfuhl
-- Friedrichsfelde Ost
+- Wannsee ✅
+- Nikolassee ✅
+- Westkreuz ✅
+- Charlottenburg ❌
+- Zoologischer Garten ❌
+- Hauptbahnhof ❌
+- Friedrichstraße ❌
+- Alexanderplatz ❌
+- Jannowitzbrücke ❌
+- Warschauer Straße ✅
+- Ostkreuz ❌
+- Lichtenberg ❌
+- Friedrichsfelde Ost ✅
+- Springpfuhl ✅
 
-## S75
+## S75 ❌ (2/4)
 
-- Springpfuhl
-- Friedrichsfelde Ost
+- Ostkreuz ❌
+- Lichtenberg ❌
+- Friedrichsfelde Ost ✅
+- Springpfuhl ✅
 
-## S8
+## S8 ❌ (6/14)
 
-- Birkenwerder
-- Hohen Neuendorf
-- Blankenburg
-- Adlershof
-- Grünau
-- Zeuthen
+- Zeuthen ✅
+- Grünau ✅
+- Adlershof ✅
+- Schöneweide ❌
+- Baumschulenweg ❌
+- Treptower Park ❌
+- Ostkreuz ❌
+- Frankfurter Allee ❌
+- Schönhauser Allee ❌
+- Bornholmer Straße ❌
+- Pankow ❌
+- Blankenburg ✅
+- Hohen Neuendorf ✅
+- Birkenwerder ✅
 
-## S9
+## S85 ❌ (2/10)
 
-- Adlershof
+- Grünau ✅
+- Adlershof ✅
+- Schöneweide ❌
+- Baumschulenweg ❌
+- Treptower Park ❌
+- Ostkreuz ❌
+- Frankfurter Allee ❌
+- Schönhauser Allee ❌
+- Bornholmer Straße ❌
+- Pankow ❌
+
+## S9 ❌ (4/13)
+
+- Spandau ✅
+- Westkreuz ✅
+- Charlottenburg ❌
+- Zoologischer Garten ❌
+- Hauptbahnhof ❌
+- Friedrichstraße ❌
+- Alexanderplatz ❌
+- Jannowitzbrücke ❌
+- Warschauer Straße ✅
+- Treptower Park ❌
+- Baumschulenweg ❌
+- Schöneweide ❌
+- Adlershof ✅
