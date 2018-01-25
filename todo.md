@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **43** of **70**
+Number of completed stations: **44** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -19,10 +19,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Kottbusser Tor ✅
 - Warschauer Straße ✅
 
-## U2 ❌ (5/11)
+## U2 ❌ (6/11)
 
 - Kaiserdamm ✅
-- Bismarckstraße ❌
+- Bismarckstraße ✅
 - Zoologischer Garten ❌
 - Wittenbergplatz ✅
 - Nollendorfplatz ✅
@@ -63,11 +63,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Mehringdamm ✅
 - Tempelhof ✅
 
-## U7 ❌ (5/12)
+## U7 ❌ (6/12)
 
 - Rathaus Spandau ✅
 - Jungfernheide ❌
-- Bismarckstraße ❌
+- Bismarckstraße ✅
 - Wilmersdorfer Straße ❌
 - Fehrbelliner Platz ❌
 - Berliner Straße ❌
