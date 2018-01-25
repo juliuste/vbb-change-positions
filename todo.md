@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **44** of **70**
+Number of completed stations: **45** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -19,7 +19,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Kottbusser Tor ✅
 - Warschauer Straße ✅
 
-## U2 ❌ (6/11)
+## U2 ❌ (7/11)
 
 - Kaiserdamm ✅
 - Bismarckstraße ✅
@@ -30,7 +30,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Potsdamer Platz ❌
 - Stadtmitte ✅
 - Alexanderplatz ❌
-- Schönhauser Allee ❌
+- Schönhauser Allee ✅
 - Pankow ❌
 
 ## U3 ❌ (4/5)
@@ -174,7 +174,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (9/19)
+## S41/S42 ❌ (10/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
@@ -194,7 +194,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Treptower Park ❌
 - Ostkreuz ❌
 - Frankfurter Allee ❌
-- Schönhauser Allee ❌
+- Schönhauser Allee ✅
 
 ## S45 ❌ (3/7)
 
@@ -271,7 +271,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S8 ❌ (7/14)
+## S8 ❌ (8/14)
 
 - Zeuthen ✅
 - Grünau ✅
@@ -281,14 +281,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Treptower Park ❌
 - Ostkreuz ❌
 - Frankfurter Allee ❌
-- Schönhauser Allee ❌
+- Schönhauser Allee ✅
 - Bornholmer Straße ✅
 - Pankow ❌
 - Blankenburg ✅
 - Hohen Neuendorf ✅
 - Birkenwerder ✅
 
-## S85 ❌ (3/10)
+## S85 ❌ (4/10)
 
 - Grünau ✅
 - Adlershof ✅
@@ -297,7 +297,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Treptower Park ❌
 - Ostkreuz ❌
 - Frankfurter Allee ❌
-- Schönhauser Allee ❌
+- Schönhauser Allee ✅
 - Bornholmer Straße ✅
 - Pankow ❌
 
