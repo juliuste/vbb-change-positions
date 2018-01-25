@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **52** of **70**
+Number of completed stations: **53** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -70,14 +70,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Mehringdamm ✅
 - Tempelhof ✅
 
-## U7 ❌ (8/12)
+## U7 ❌ (9/12)
 
 - Rathaus Spandau ✅
 - Jungfernheide ✅
 - Bismarckstraße ✅
 - Wilmersdorfer Straße ❌
 - Fehrbelliner Platz ✅
-- Berliner Straße ❌
+- Berliner Straße ✅
 - Bayerischer Platz ✅
 - Yorckstraße ✅
 - Möckernbrücke ✅
@@ -97,7 +97,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Hermannstraße ✅
 
-## U9 ❌ (4/9)
+## U9 ❌ (5/9)
 
 - Osloer Straße ❌
 - Leopoldplatz ✅
@@ -105,7 +105,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Zoologischer Garten ❌
 - Kurfürstendamm ✅
 - Spichernstraße ✅
-- Berliner Straße ❌
+- Berliner Straße ✅
 - Bundesplatz ❌
 - Rathaus Steglitz ❌
 
