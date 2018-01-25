@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **42** of **70**
+Number of completed stations: **43** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -120,10 +120,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hohen Neuendorf ✅ *safety-check again*
 - Birkenwerder ✅
 
-## S2 ❌ (5/10)
+## S2 ❌ (6/10)
 
 - Priesterweg ✅
-- Südkreuz ❌
+- Südkreuz ✅
 - Yorckstraße ✅
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
@@ -133,10 +133,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Pankow ❌
 - Blankenburg ✅
 
-## S25 ❌ (7/11)
+## S25 ❌ (8/11)
 
 - Priesterweg ✅
-- Südkreuz ❌
+- Südkreuz ✅
 - Yorckstraße ✅
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
@@ -147,10 +147,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Tegel ✅
 
-## S26 ❌ (7/11)
+## S26 ❌ (8/11)
 
 - Priesterweg ✅
-- Südkreuz ❌
+- Südkreuz ✅
 - Yorckstraße ✅
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
@@ -174,7 +174,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (8/19)
+## S41/S42 ❌ (9/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
@@ -187,7 +187,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bundesplatz ❌
 - Innsbrucker Platz ✅
 - Schöneberg ✅
-- Südkreuz ❌
+- Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ❌
 - Neukölln ❌
@@ -196,9 +196,9 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Frankfurter Allee ❌
 - Schönhauser Allee ❌
 
-## S45 ❌ (2/7)
+## S45 ❌ (3/7)
 
-- Südkreuz ❌
+- Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ❌
 - Neukölln ❌
@@ -206,7 +206,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Schöneweide ❌
 - Adlershof ✅
 
-## S46 ❌ (9/16)
+## S46 ❌ (10/16)
 
 - Westend ❌
 - Messe Nord/ICC ✅
@@ -215,7 +215,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bundesplatz ❌
 - Innsbrucker Platz ✅
 - Schöneberg ✅
-- Südkreuz ❌
+- Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ❌
 - Neukölln ❌
