@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **46** of **70**
+Number of completed stations: **47** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -181,7 +181,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (10/19)
+## S41/S42 ❌ (11/19)
 
 - Gesundbrunnen ❌
 - Wedding ✅
@@ -198,7 +198,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Tempelhof ✅
 - Hermannstraße ❌
 - Neukölln ❌
-- Treptower Park ❌
+- Treptower Park ✅
 - Ostkreuz ❌
 - Frankfurter Allee ❌
 - Schönhauser Allee ✅
@@ -278,14 +278,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S8 ❌ (8/14)
+## S8 ❌ (9/14)
 
 - Zeuthen ✅
 - Grünau ✅
 - Adlershof ✅
 - Schöneweide ❌
 - Baumschulenweg ❌
-- Treptower Park ❌
+- Treptower Park ✅
 - Ostkreuz ❌
 - Frankfurter Allee ❌
 - Schönhauser Allee ✅
@@ -295,20 +295,20 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hohen Neuendorf ✅
 - Birkenwerder ✅
 
-## S85 ❌ (4/10)
+## S85 ❌ (5/10)
 
 - Grünau ✅
 - Adlershof ✅
 - Schöneweide ❌
 - Baumschulenweg ❌
-- Treptower Park ❌
+- Treptower Park ✅
 - Ostkreuz ❌
 - Frankfurter Allee ❌
 - Schönhauser Allee ✅
 - Bornholmer Straße ✅
 - Pankow ❌
 
-## S9 ❌ (5/13)
+## S9 ❌ (6/13)
 
 - Spandau ✅
 - Westkreuz ✅
@@ -319,7 +319,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Alexanderplatz ❌
 - Jannowitzbrücke ❌
 - Warschauer Straße ✅
-- Treptower Park ❌
+- Treptower Park ✅
 - Baumschulenweg ❌
 - Schöneweide ❌
 - Adlershof ✅
