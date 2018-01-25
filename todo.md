@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **39** of **70**
+Number of completed stations: **40** of **70**
 
 (Complete in a way of covered-all-line-relations, rather than even covered-all-possible-physical-routes. So there can still be uncovered routes (especially via escalators) when a station is marked as *completed*)
 
@@ -121,9 +121,9 @@ Number of completed stations: **39** of **70**
 - Hohen Neuendorf ✅ *safety-check again*
 - Birkenwerder ✅
 
-## S2 ❌ (3/10)
+## S2 ❌ (4/10)
 
-- Priesterweg ❌
+- Priesterweg ✅
 - Südkreuz ❌
 - Yorckstraße ✅
 - Potsdamer Platz ❌
@@ -134,9 +134,9 @@ Number of completed stations: **39** of **70**
 - Pankow ❌
 - Blankenburg ✅
 
-## S25 ❌ (5/11)
+## S25 ❌ (6/11)
 
-- Priesterweg ❌
+- Priesterweg ✅
 - Südkreuz ❌
 - Yorckstraße ✅
 - Potsdamer Platz ❌
@@ -148,9 +148,9 @@ Number of completed stations: **39** of **70**
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Tegel ✅
 
-## S26 ❌ (5/11)
+## S26 ❌ (6/11)
 
-- Priesterweg ❌
+- Priesterweg ✅
 - Südkreuz ❌
 - Yorckstraße ✅
 - Potsdamer Platz ❌
