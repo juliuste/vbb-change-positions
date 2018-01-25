@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **55** of **70**
+Number of completed stations: **56** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -85,12 +85,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Neukölln ❌
 
-## U8 ❌ (4/9)
+## U8 ❌ (5/9)
 
 - Wittenau ✅
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Osloer Straße ❌
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Alexanderplatz ❌
 - Jannowitzbrücke ❌
 - Kottbusser Tor ✅
@@ -109,7 +109,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bundesplatz ❌
 - Rathaus Steglitz ❌
 
-## S1 ❌ (12/15)
+## S1 ❌ (13/15)
 
 - Wannsee ✅
 - Nikolassee ✅
@@ -119,7 +119,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
 - Friedrichstraße ✅
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Bornholmer Straße ✅
 - Schönholz ✅
 - Wittenau ✅
@@ -127,7 +127,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hohen Neuendorf ✅ *safety-check again*
 - Birkenwerder ✅
 
-## S2 ❌ (7/10)
+## S2 ❌ (8/10)
 
 - Priesterweg ✅
 - Südkreuz ✅
@@ -135,12 +135,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
 - Friedrichstraße ✅
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Bornholmer Straße ✅
 - Pankow ❌
 - Blankenburg ✅
 
-## S25 ❌ (9/11)
+## S25 ❌ (10/11)
 
 - Priesterweg ✅
 - Südkreuz ✅
@@ -148,13 +148,13 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
 - Friedrichstraße ✅
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Bornholmer Straße ✅
 - Schönholz ✅
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Tegel ✅
 
-## S26 ❌ (9/11)
+## S26 ❌ (10/11)
 
 - Priesterweg ✅
 - Südkreuz ✅
@@ -162,7 +162,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Potsdamer Platz ❌
 - Brandenburger Tor ✅
 - Friedrichstraße ✅
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Bornholmer Straße ✅
 - Schönholz ✅
 - Wittenau ✅
@@ -181,9 +181,9 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (15/19)
+## S41/S42 ❌ (16/19)
 
-- Gesundbrunnen ❌
+- Gesundbrunnen ✅
 - Wedding ✅
 - Westhafen ✅
 - Jungfernheide ✅
