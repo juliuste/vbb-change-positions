@@ -47,6 +47,13 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bayerischer Platz ✅
 - Nollendorfplatz ✅
 
+## U5 ❌ (0/4)
+
+- Alexanderplatz ❌
+- Frankfurter Allee ❌
+- Lichtenberg ❌
+- Wuhletal ❌
+
 ## U55 ✅ (2/2)
 
 - Hauptbahnhof ✅
