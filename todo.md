@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **40** of **70**
+Number of completed stations: **41** of **70**
 
 (Complete in a way of covered-all-line-relations, rather than even covered-all-possible-physical-routes. So there can still be uncovered routes (especially via escalators) when a station is marked as *completed*)
 
@@ -103,7 +103,7 @@ Number of completed stations: **40** of **70**
 - Bundesplatz ❌
 - Rathaus Steglitz ❌
 
-## S1 ❌ (10/15)
+## S1 ❌ (11/15)
 
 - Wannsee ✅
 - Nikolassee ✅
@@ -114,14 +114,14 @@ Number of completed stations: **40** of **70**
 - Brandenburger Tor ✅
 - Friedrichstraße ❌
 - Gesundbrunnen ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Schönholz ✅
 - Wittenau ✅
 - Waidmannslust ✅
 - Hohen Neuendorf ✅ *safety-check again*
 - Birkenwerder ✅
 
-## S2 ❌ (4/10)
+## S2 ❌ (5/10)
 
 - Priesterweg ✅
 - Südkreuz ❌
@@ -130,11 +130,11 @@ Number of completed stations: **40** of **70**
 - Brandenburger Tor ✅
 - Friedrichstraße ❌
 - Gesundbrunnen ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Pankow ❌
 - Blankenburg ✅
 
-## S25 ❌ (6/11)
+## S25 ❌ (7/11)
 
 - Priesterweg ✅
 - Südkreuz ❌
@@ -143,12 +143,12 @@ Number of completed stations: **40** of **70**
 - Brandenburger Tor ✅
 - Friedrichstraße ❌
 - Gesundbrunnen ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Schönholz ✅
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Tegel ✅
 
-## S26 ❌ (6/11)
+## S26 ❌ (7/11)
 
 - Priesterweg ✅
 - Südkreuz ❌
@@ -157,7 +157,7 @@ Number of completed stations: **40** of **70**
 - Brandenburger Tor ✅
 - Friedrichstraße ❌
 - Gesundbrunnen ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Schönholz ✅
 - Wittenau ✅
 - Waidmannslust ✅
@@ -272,7 +272,7 @@ Number of completed stations: **40** of **70**
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S8 ❌ (6/14)
+## S8 ❌ (7/14)
 
 - Zeuthen ✅
 - Grünau ✅
@@ -283,13 +283,13 @@ Number of completed stations: **40** of **70**
 - Ostkreuz ❌
 - Frankfurter Allee ❌
 - Schönhauser Allee ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Pankow ❌
 - Blankenburg ✅
 - Hohen Neuendorf ✅
 - Birkenwerder ✅
 
-## S85 ❌ (2/10)
+## S85 ❌ (3/10)
 
 - Grünau ✅
 - Adlershof ✅
@@ -299,7 +299,7 @@ Number of completed stations: **40** of **70**
 - Ostkreuz ❌
 - Frankfurter Allee ❌
 - Schönhauser Allee ❌
-- Bornholmer Straße ❌
+- Bornholmer Straße ✅
 - Pankow ❌
 
 ## S9 ❌ (4/13)
