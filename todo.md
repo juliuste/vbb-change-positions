@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **56** of **70**
+Number of completed stations: **57** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -85,11 +85,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Neukölln ❌
 
-## U8 ❌ (5/9)
+## U8 ❌ (6/9)
 
 - Wittenau ✅
 - Karl-Bonhoeffer-Nervenklinik ✅
-- Osloer Straße ❌
+- Osloer Straße ✅
 - Gesundbrunnen ✅
 - Alexanderplatz ❌
 - Jannowitzbrücke ❌
@@ -97,9 +97,9 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Hermannstraße ✅
 
-## U9 ❌ (6/9)
+## U9 ❌ (7/9)
 
-- Osloer Straße ❌
+- Osloer Straße ✅
 - Leopoldplatz ✅
 - Westhafen ✅
 - Zoologischer Garten ✅
