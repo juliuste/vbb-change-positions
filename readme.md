@@ -84,7 +84,7 @@ Finally, our example would give us the following data row for the NDJSON file:
 
 #### Parallel lines
 
-There's a common situation where multiple lines run in parallel for a few stations in a row, like `S41/S42` and `S46` between `Westend` and `Neukölln` or `S1` and `S2` between `Yorckstraße` and `Bornholmer Straße`. A general rule of thumb for this case is that only if it's your last chance to change between two lines at a station, this specific interchange scenario should be mapped. To give you a few examples:
+There's a common situation where multiple lines run in parallel for a few stations in a row, like `S41/S42` and `S46` between `Westend` and `Neukölln` or `S1` and `S2` between `Yorckstraße` and `Bornholmer Straße`. A general rule of thumb for this case is that only if it's your last chance to change between two lines at a station, this specific interchange scenario should be mapped. However, if it's a common things for commuters to change at another station than the "last possible", then and only then that station should be added as well. To give you a few examples:
 
 - `Neukölln` should be mapped for `S42@Hermannstraße -> S45/S46/S47@Köllnische Heide`, `S45/S46@Hermannstraße -> S42@Sonnenallee` and `S41/S42@Sonnenallee <-> S45/S46/S47@Köllnische Heide`, making 4 interchange scenarios. (For simplicity, I ignored the `U7` in this example, that should be mapped as well, of course).
 - `Westend` should be mapped for `S46@Messe Nord/ICC -> S41@Jungernheide`, because the S46 terminates here, making it the last possible point of interchange. No other interchanges should be mapped for this station, though.
@@ -92,6 +92,8 @@ There's a common situation where multiple lines run in parallel for a few statio
 - `Priesterweg` should be mapped for 4 scenarios: `S2@Südkreuz -> S25/S26@Südende`, `S25/S26@Südkreuz -> S2@Attilastraße` and `S2@Attilastraße <-> S25/S26@Südende`
 - `Heidelberger Platz` should be mapped for interchanges `S41/S42/S46 <-> U3`, but not for interchanges like `S41 -> S46` or even `S41 -> S42`
 - `Flughafen Berlin-Schönefeld` Even though technically the last station to "change" between `S9` and `S45`, no interchanges should be mapped since **both** lines terminate here. For places where only one line terminates while the others continue, see the `Westend` example.
+- `Jannowitzbrücke` Even though technically not the last chance to change between S-Bahn and `U8`, the interchange `S3/S5/S7/S9@Alexanderplatz <-> U8@Alexanderplatz` should be mapped, since a lot of people prefer to change at Jannowitzbrücke instead of Alexanderplatz because the ways are shorter and it's less crowded.
+- `Wannsee` Same with this station. Even though one might assume people would change between `S1` and `S7` at Nikolassee, it's actually much more common to change at Wannsee, because trains stop at the same platform there. So `S7@Griebnitzsee -> S1@Nikolassee` should be added here.
 
 #### Other
 
