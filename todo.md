@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **62** of **70**
+Number of completed stations: **63** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -203,17 +203,17 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Frankfurter Allee ✅
 - Schönhauser Allee ✅
 
-## S45 ❌ (5/7)
+## S45 ❌ (6/7)
 
 - Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ✅
 - Neukölln ✅
 - Baumschulenweg ❌
-- Schöneweide ❌
+- Schöneweide ✅
 - Adlershof ✅
 
-## S46 ❌ (14/16)
+## S46 ❌ (15/16)
 
 - Westend ✅
 - Messe Nord/ICC ✅
@@ -227,17 +227,17 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannstraße ✅
 - Neukölln ✅
 - Baumschulenweg ❌
-- Schöneweide ❌
+- Schöneweide ✅
 - Adlershof ✅
 - Grünau ✅
 - Zeuthen ✅
 
-## S47 ❌ (2/4)
+## S47 ❌ (3/4)
 
 - Hermannstraße ✅
 - Neukölln ✅
 - Baumschulenweg ❌
-- Schöneweide ❌
+- Schöneweide ✅
 
 ## S5 ❌ (8/12)
 
@@ -278,12 +278,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S8 ❌ (10/14)
+## S8 ❌ (11/14)
 
 - Zeuthen ✅
 - Grünau ✅
 - Adlershof ✅
-- Schöneweide ❌
+- Schöneweide ✅
 - Baumschulenweg ❌
 - Treptower Park ✅
 - Ostkreuz ❌
@@ -295,11 +295,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hohen Neuendorf ✅
 - Birkenwerder ✅
 
-## S85 ❌ (6/10)
+## S85 ❌ (7/10)
 
 - Grünau ✅
 - Adlershof ✅
-- Schöneweide ❌
+- Schöneweide ✅
 - Baumschulenweg ❌
 - Treptower Park ✅
 - Ostkreuz ❌
@@ -308,7 +308,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bornholmer Straße ✅
 - Pankow ❌
 
-## S9 ❌ (9/13)
+## S9 ❌ (10/13)
 
 - Spandau ✅
 - Westkreuz ✅
@@ -321,5 +321,5 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Treptower Park ✅
 - Baumschulenweg ❌
-- Schöneweide ❌
+- Schöneweide ✅
 - Adlershof ✅
