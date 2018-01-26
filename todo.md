@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **60** of **70**
+Number of completed stations: **61** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -70,7 +70,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Mehringdamm ✅
 - Tempelhof ✅
 
-## U7 ❌ (9/12)
+## U7 ❌ (10/12)
 
 - Rathaus Spandau ✅
 - Jungfernheide ✅
@@ -83,7 +83,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Möckernbrücke ✅
 - Mehringdamm ✅
 - Hermannplatz ❌
-- Neukölln ❌
+- Neukölln ✅
 
 ## U8 ❌ (6/9)
 
@@ -181,7 +181,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
-## S41/S42 ❌ (17/19)
+## S41/S42 ❌ (18/19)
 
 - Gesundbrunnen ✅
 - Wedding ✅
@@ -197,23 +197,23 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ✅
-- Neukölln ❌
+- Neukölln ✅
 - Treptower Park ✅
 - Ostkreuz ❌
 - Frankfurter Allee ✅
 - Schönhauser Allee ✅
 
-## S45 ❌ (4/7)
+## S45 ❌ (5/7)
 
 - Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ✅
-- Neukölln ❌
+- Neukölln ✅
 - Baumschulenweg ❌
 - Schöneweide ❌
 - Adlershof ✅
 
-## S46 ❌ (13/16)
+## S46 ❌ (14/16)
 
 - Westend ✅
 - Messe Nord/ICC ✅
@@ -225,17 +225,17 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Südkreuz ✅
 - Tempelhof ✅
 - Hermannstraße ✅
-- Neukölln ❌
+- Neukölln ✅
 - Baumschulenweg ❌
 - Schöneweide ❌
 - Adlershof ✅
 - Grünau ✅
 - Zeuthen ✅
 
-## S47 ❌ (1/4)
+## S47 ❌ (2/4)
 
 - Hermannstraße ✅
-- Neukölln ❌
+- Neukölln ✅
 - Baumschulenweg ❌
 - Schöneweide ❌
 
