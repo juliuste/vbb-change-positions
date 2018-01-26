@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **66** of **70**
+Number of completed stations: **67** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -47,11 +47,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bayerischer Platz ✅
 - Nollendorfplatz ✅
 
-## U5 ❌ (2/4)
+## U5 ❌ (3/4)
 
 - Alexanderplatz ❌
 - Frankfurter Allee ✅
-- Lichtenberg ❌
+- Lichtenberg ✅
 - Wuhletal ✅
 
 ## U55 ✅ (2/2)
@@ -239,7 +239,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ✅
 - Schöneweide ✅
 
-## S5 ❌ (9/12)
+## S5 ❌ (10/12)
 
 - Westkreuz ✅
 - Charlottenburg ✅
@@ -250,11 +250,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Ostkreuz ❌
-- Lichtenberg ❌
+- Lichtenberg ✅
 - Friedrichsfelde Ost ✅
 - Wuhletal ✅
 
-## S7 ❌ (11/14)
+## S7 ❌ (12/14)
 
 - Wannsee ✅
 - Nikolassee ✅
@@ -267,14 +267,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Ostkreuz ❌
-- Lichtenberg ❌
+- Lichtenberg ✅
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
-## S75 ❌ (2/4)
+## S75 ❌ (3/4)
 
 - Ostkreuz ❌
-- Lichtenberg ❌
+- Lichtenberg ✅
 - Friedrichsfelde Ost ✅
 - Springpfuhl ✅
 
