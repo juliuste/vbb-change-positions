@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **64** of **70**
+Number of completed stations: **65** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -70,12 +70,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Mehringdamm ✅
 - Tempelhof ✅
 
-## U7 ❌ (10/12)
+## U7 ❌ (11/12)
 
 - Rathaus Spandau ✅
 - Jungfernheide ✅
 - Bismarckstraße ✅
-- Wilmersdorfer Straße ❌
+- Wilmersdorfer Straße ✅
 - Fehrbelliner Platz ✅
 - Berliner Straße ✅
 - Bayerischer Platz ✅
@@ -168,11 +168,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Wittenau ✅
 - Waidmannslust ✅
 
-## S3 ❌ (7/10)
+## S3 ❌ (8/10)
 
 - Spandau ✅
 - Westkreuz ✅
-- Charlottenburg ❌
+- Charlottenburg ✅
 - Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
@@ -239,10 +239,10 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ✅
 - Schöneweide ✅
 
-## S5 ❌ (8/12)
+## S5 ❌ (9/12)
 
 - Westkreuz ✅
-- Charlottenburg ❌
+- Charlottenburg ✅
 - Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
@@ -254,12 +254,12 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Friedrichsfelde Ost ✅
 - Wuhletal ✅
 
-## S7 ❌ (10/14)
+## S7 ❌ (11/14)
 
 - Wannsee ✅
 - Nikolassee ✅
 - Westkreuz ✅
-- Charlottenburg ❌
+- Charlottenburg ✅
 - Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
@@ -308,11 +308,11 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bornholmer Straße ✅
 - Pankow ❌
 
-## S9 ❌ (11/13)
+## S9 ❌ (12/13)
 
 - Spandau ✅
 - Westkreuz ✅
-- Charlottenburg ❌
+- Charlottenburg ✅
 - Zoologischer Garten ✅
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
