@@ -1,6 +1,6 @@
 # Station overview
 
-Number of completed stations: **61** of **70**
+Number of completed stations: **62** of **70**
 
 Please note that "complete" indicates that there's **at least** one entry for every possible line-interchange-relation at this station. Since there could be multiple entries for the same interchange relation (e.g. because there's multiple exits / escalators / lifts), a station marked as *completed* isn't necessarily fully covered.
 
@@ -85,14 +85,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hermannplatz ❌
 - Neukölln ✅
 
-## U8 ❌ (6/9)
+## U8 ❌ (7/9)
 
 - Wittenau ✅
 - Karl-Bonhoeffer-Nervenklinik ✅
 - Osloer Straße ✅
 - Gesundbrunnen ✅
 - Alexanderplatz ❌
-- Jannowitzbrücke ❌
+- Jannowitzbrücke ✅
 - Kottbusser Tor ✅
 - Hermannplatz ❌
 - Hermannstraße ✅
@@ -168,7 +168,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Wittenau ✅
 - Waidmannslust ✅
 
-## S3 ❌ (6/10)
+## S3 ❌ (7/10)
 
 - Spandau ✅
 - Westkreuz ✅
@@ -177,7 +177,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
 - Alexanderplatz ❌
-- Jannowitzbrücke ❌
+- Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Ostkreuz ❌
 
@@ -239,7 +239,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Baumschulenweg ❌
 - Schöneweide ❌
 
-## S5 ❌ (7/12)
+## S5 ❌ (8/12)
 
 - Westkreuz ✅
 - Charlottenburg ❌
@@ -247,14 +247,14 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
 - Alexanderplatz ❌
-- Jannowitzbrücke ❌
+- Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Ostkreuz ❌
 - Lichtenberg ❌
 - Friedrichsfelde Ost ✅
 - Wuhletal ✅
 
-## S7 ❌ (9/14)
+## S7 ❌ (10/14)
 
 - Wannsee ✅
 - Nikolassee ✅
@@ -264,7 +264,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
 - Alexanderplatz ❌
-- Jannowitzbrücke ❌
+- Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Ostkreuz ❌
 - Lichtenberg ❌
@@ -308,7 +308,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Bornholmer Straße ✅
 - Pankow ❌
 
-## S9 ❌ (8/13)
+## S9 ❌ (9/13)
 
 - Spandau ✅
 - Westkreuz ✅
@@ -317,7 +317,7 @@ Please note that "complete" indicates that there's **at least** one entry for ev
 - Hauptbahnhof ✅
 - Friedrichstraße ✅
 - Alexanderplatz ❌
-- Jannowitzbrücke ❌
+- Jannowitzbrücke ✅
 - Warschauer Straße ✅
 - Treptower Park ✅
 - Baumschulenweg ❌
