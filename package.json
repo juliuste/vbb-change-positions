@@ -1,7 +1,7 @@
 {
 	"name": "vbb-change-positions",
 	"description": "Station-specific platform positions for changes between vbb main lines.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"keywords": [
 		"vbb",
 		"berlin",
