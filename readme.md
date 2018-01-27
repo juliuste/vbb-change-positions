@@ -25,18 +25,26 @@ If you call the function exported by the module, it will return a [Promise](http
 ```js
 [
     {
-        station: '900000024201',
-        stationName: 'Bismarckstraße',
-        fromLines: ['U7'],
-        fromStation: '900000022202',
-        fromStationName: 'Richard-Wagner-Platz',
-        fromTrack: undefined,
-        fromPosition: 0.2,
-        toLines: ['U2'],
-        toStation: '900000022101',
-        toStationName: 'Sophie-Charlotte-Platz',
-        toTrack: undefined,
-        toPosition: 0.5,
+        fromStation: {
+            id: "900000045102",
+            name: "Heidelberger Platz"
+        },
+        fromLines: ["S42","S46"],
+        previousStation: {
+            id: "900000044101",
+            name: "Hohenzollerndamm"
+        },
+        fromPosition: 1,
+        toStation: {
+            id: "900000045102",
+            name: "Heidelberger Platz"
+        },
+        toLines: ["U3"],
+        nextStation: {
+            id: "900000045101",
+            name: "Rüdesheimer Platz"
+        },
+        toPosition: 1,
         samePlatform: false
     }
     // …
@@ -55,16 +63,22 @@ The dataset row would then contain the following information:
 
 | key name | description | required | example |
 | -------- | ----------- | -------- | ------- |
-| `station` | Interchange station ID\* | yes | `900000045102` |
-| `stationName` | Interchange station name (only for readability of the dataset) | no | `Heidelberger Platz` |
+| `fromStation` | Station at which you arrive. Object containing the keys below. | yes | `{id: "900000045102", name: "Heidelberger Platz"}` |
+| `fromStation.id` | Arrival station ID\* | yes | `900000045102` |
+| `fromStation.name` | Arrival station name (only for readability of the dataset) | no | `Heidelberger Platz` |
 | `fromLines`    | "Arriving" line names. Note that the lines must run on the same platform and share the same `fromStation`. For the lines that fit those criteria, there should exist only one dataset row grouping them, though. This key exists mostly because information on `fromTrack` is much harder to get/remember than the rather simple line names and sometimes the track changes but the platform doesn't. | yes | `["S42", "S46"]` |
-| `fromStation` | *Previous* station ID\* on the line before changing | yes | `900000044101` |
-| `fromStationName` | *Previous* station name on the line before changing (only for readability of the dataset) | no | `Hohenzollerndamm` |
+| `previousStation` | Previous station on the line before changing. Object containing the keys below. | yes | `{id: "900000044101", name: "Hohenzollerndamm"}` |
+| `previousStation.id` | Previous station ID\* | yes | `900000044101` |
+| `previousStation.name` | Previous station name (only for readability of the dataset) | no | `Hohenzollerndamm` |
 | `fromTrack`| Arrival platform (track)\*\* | no | *empty*
 | `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front "driver's" end of the station) \*\*\* | yes | `1` |
+| `toStation` | Station at which you depart. Mostly the same as `fromStation`, but different for interchanges like `Kaiserdamm <-> Messe Nord/ICC` that are marked as one node on the public transport map. Object containing the keys below. | yes | `{id: "900000045102", name: "Heidelberger Platz"}` |
+| `toStation.id` | Arrival station ID\* | yes | `900000045102` |
+| `toStation.name` | Arrival station name (only for readability of the dataset) | no | `Heidelberger Platz` |
 | `toLines`    | "Departing" line names, see `fromLines` | yes | `["U3"]` |
-| `toStation` | Next station (ID\*) on the line after changing | yes | `900000045101` |
-| `toStationName` | Next station (name) on the line after changing (only for readability of the dataset) | no | `Rüdesheimer Platz` |
+| `nextStation` | Next station on the line after changing. Object containing the keys below. | yes | `{id: "900000045101", name: "Rüdesheimer Platz"}` |
+| `nextStation.id` | Next station ID\* | yes | `900000045101` |
+| `nextStation.name` | Next station name (only for readability of the dataset) | no | `Rüdesheimer Platz` |
 | `toTrack`| Departure platform (track)\*\* | no | *empty*
 | `toPosition`| Number where to enter the departure platform.\*\*\* See also `fromPosition`. | yes | `1` |
 | `samePlatform` | Set to `true` if both trains stop at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
@@ -78,7 +92,7 @@ The dataset row would then contain the following information:
 Finally, our example would give us the following data row for the NDJSON file:
 
 ```json
-{"station":"900000045102","stationName":"Heidelberger Platz","fromLines":["S42","S46"],"fromStation":"900000044101","fromStationName":"Hohenzollerndamm","fromPosition":1,"toLines":["U3"],"toStation":"900000045101","toStationName":"Rüdesheimer Platz","toPosition":1,"samePlatform":false}
+{"fromStation":{"id":"900000045102","name":"Heidelberger Platz"},"fromLines":["S42","S46"],"previousStation":{"id":"900000044101","name":"Hohenzollerndamm"},"fromPosition":1,"toStation":{"id":"900000045102","name":"Heidelberger Platz"},"toLines":["U3"],"nextStation":{"id":"900000045101","name":"Rüdesheimer Platz"},"toPosition":1,"samePlatform":false}
 ```
 ### Additional guidelines
 
@@ -98,9 +112,9 @@ There's a common situation where multiple lines run in parallel for a few statio
 #### Other
 
 - If you're not too sure about the exact position on the platform, just take one of `0`, `0.5` or `1` that fits best, in order to prevent us from having data that seems really accurate but actually isn't.
-- For interchange nodes with multiple names, station buildings and therefore multiple IDs, like `Messe Nord/ICC` and `Kaiserdamm`, use the ID for the **arrival** station. (*not strictly enforced yet, CLI doesn't support this atm*)
+- `fromStation` and `toStation` will mostly be the same, except for connections like `Messe Nord/ICC` and `Kaiserdamm`.
 - If there are multiple ways connecting to platforms, either add separate rows for all of them or just add the shortest connection.
-- `fromLines` and `toLines` must be different, `fromStation` and `toStation` can be identical, however.
+- `fromLines` and `toLines` must be different, `previousStation` and `nextStation` can be identical, however.
 
 ## Contributing
 

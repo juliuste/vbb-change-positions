@@ -2,6 +2,7 @@
 
 const tapePromise = require('tape-promise').default
 const tape = require('tape')
+const isObject = require('lodash.isobject')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')
 const isArray = require('lodash.isarray')
@@ -11,6 +12,7 @@ const toArray = require('get-stream').array
 const path = require('path')
 const fs = require('fs')
 const getStations = require('vbb-stations')
+const linesAt = require('vbb-lines-at')
 
 const changePositions = require('.')
 
@@ -36,27 +38,42 @@ test('data.ndjson contains correct values', async (t) => {
 	for (let i = 0; i < positions.length; i++) {
 		const p = positions[i]
 		let desc = 'row ' + i
-		if (p.stationName) desc += ' (' + p.stationName + ')'
-		else if (p.station) desc += ' (' + p.station + ')'
+		if (p.fromStation && p.fromStation.name && p.toStation && p.toStation.name) desc += ' (' + p.fromStation.name + ' / ' + p.toStation.name + ')'
+		else if (p.fromStation && p.fromStation.id && p.toStation && p.toStation.id) desc += ' (' + p.fromStation.id + ' / ' + p.toStation.id + ')'
 
-		t.ok(notNullString(p.station), desc + ' station')
-		const [s] = getStations(p.station)
-		t.ok(s, desc + ' station')
-		t.ok(undefinedOrString(p.stationName), desc + ' stationName')
-
+		t.ok(isObject(p.fromStation), desc + ' fromStation')
+		t.ok(notNullString(p.fromStation.id), desc + ' fromStation.id')
+		const [from] = getStations(p.fromStation.id)
+		t.ok(from, desc + ' fromStation.id')
+		t.ok(undefinedOrString(p.fromStation.name), desc + ' fromStation.name')
+		t.ok(isObject(p.previousStation), desc + ' previousStation')
+		t.ok(notNullString(p.previousStation.id), desc + ' previousStation.id')
+		const [prev] = getStations(p.previousStation.id)
+		t.ok(prev, desc + ' previousStation.id')
+		t.ok(undefinedOrString(p.previousStation.name), desc + ' previousStation.name')
 		t.ok(isArray(p.fromLines) && p.fromLines.length > 0 && p.fromLines.every(notNullString), desc + ' fromLines')
-		t.ok(notNullString(p.fromStation), desc + ' fromStation')
-		const [fS] = getStations(p.fromStation)
-		t.ok(fS, desc + ' station')
-		t.ok(undefinedOrString(p.fromStationName), desc + ' fromStationName')
+		const fromStationLines = linesAt[p.fromStation.id].map(l => l.name)
+		const prevStationLines = linesAt[p.previousStation.id].map(l => l.name)
+		t.ok(p.fromLines.every(l => fromStationLines.includes(l)), desc + ' fromLines')
+		t.ok(p.fromLines.every(l => prevStationLines.includes(l)), desc + ' fromLines')
 		t.ok(undefinedOrString(p.fromTrack), desc + ' fromTrack')
 		t.ok(validPosition(p.fromPosition), desc + ' fromPosition')
 
+		t.ok(isObject(p.toStation), desc + ' toStation')
+		t.ok(notNullString(p.toStation.id), desc + ' toStation.id')
+		const [to] = getStations(p.toStation.id)
+		t.ok(to, desc + ' toStation.id')
+		t.ok(undefinedOrString(p.toStation.name), desc + ' toStation.name')
+		t.ok(isObject(p.nextStation), desc + ' nextStation')
+		t.ok(notNullString(p.nextStation.id), desc + ' nextStation.id')
+		const [next] = getStations(p.nextStation.id)
+		t.ok(next, desc + ' nextStation.id')
+		t.ok(undefinedOrString(p.nextStation.name), desc + ' nextStation.name')
 		t.ok(isArray(p.toLines) && p.toLines.length > 0 && p.toLines.every(notNullString), desc + ' toLines')
-		t.ok(notNullString(p.toStation), desc + ' toStation')
-		const [tS] = getStations(p.toStation)
-		t.ok(tS, desc + ' station')
-		t.ok(undefinedOrString(p.toStationName), desc + ' toStationName')
+		const toStationLines = linesAt[p.toStation.id].map(l => l.name)
+		const nextStationLines = linesAt[p.nextStation.id].map(l => l.name)
+		t.ok(p.toLines.every(l => toStationLines.includes(l)), desc + ' toLines')
+		t.ok(p.toLines.every(l => nextStationLines.includes(l)), desc + ' toLines')
 		t.ok(undefinedOrString(p.toTrack), desc + ' toTrack')
 		t.ok(validPosition(p.toPosition), desc + ' toPosition')
 
