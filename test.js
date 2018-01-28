@@ -1,16 +1,15 @@
 'use strict'
 
-const tapePromise = require('tape-promise').default
-const tape = require('tape')
+const test = require('tape')
 const isObject = require('lodash.isobject')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')
 const isArray = require('lodash.isarray')
 const isBoolean = require('lodash.isboolean')
 const ndjson = require('ndjson')
-const toArray = require('get-stream').array
 const path = require('path')
 const fs = require('fs')
+const isStream = require('is-stream')
 const getStations = require('vbb-stations')
 const linesAt = require('vbb-lines-at')
 
@@ -22,8 +21,6 @@ const validPosition = (x) => isNumber(x) && x >= 0 && x <= 1
 
 const dataFile = path.join(__dirname, 'data.ndjson')
 
-const test = tapePromise(tape)
-
 test('data.ndjson looks correct', (t) => {
 	fs.createReadStream(dataFile)
 	.on('error', err => t.ifError(err))
@@ -33,11 +30,13 @@ test('data.ndjson looks correct', (t) => {
 	.once('end', () => t.end())
 })
 
-test('data.ndjson contains correct values', async (t) => {
-	const positions = await changePositions()
-	for (let i = 0; i < positions.length; i++) {
-		const p = positions[i]
-		let desc = 'row ' + i
+test('data.ndjson contains correct values', (t) => {
+	const positions = changePositions()
+	t.ok(isStream.readable(positions))
+
+	let i = 0
+	positions.on('data', (p) => {
+		let desc = 'row ' + i++
 		if (p.fromStation && p.fromStation.name && p.toStation && p.toStation.name) desc += ' (' + p.fromStation.name + ' / ' + p.toStation.name + ')'
 		else if (p.fromStation && p.fromStation.id && p.toStation && p.toStation.id) desc += ' (' + p.fromStation.id + ' / ' + p.toStation.id + ')'
 
@@ -78,6 +77,8 @@ test('data.ndjson contains correct values', async (t) => {
 		t.ok(validPosition(p.toPosition), desc + ' toPosition')
 
 		t.ok(isBoolean(p.samePlatform), desc + ' samePlatform')
-	}
-	t.end()
+	})
+
+	positions.on('error', err => t.ifError(err))
+	positions.once('end', () => t.end())
 })
