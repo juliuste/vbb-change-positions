@@ -28,7 +28,6 @@
 		"data.ndjson"
 	],
 	"dependencies": {
-		"get-stream": "^3.0.0",
 		"ndjson": "^1.5.0"
 	},
 	"devDependencies": {
