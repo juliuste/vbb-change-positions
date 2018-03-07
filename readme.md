@@ -20,35 +20,32 @@ If you're using `JavaScript`, you can use the module by installing:
 npm install vbb-change-positions
 ```
 
-If you call the function exported by the module, it will return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/promise) that resolves with an array that looks like this:
+If you call the function exported by the module, it will return a stream which emits objects that look like this:
 
 ```js
-[
-    {
-        fromStation: {
-            id: "900000045102",
-            name: "Heidelberger Platz"
-        },
-        fromLines: ["S42","S46"],
-        previousStation: {
-            id: "900000044101",
-            name: "Hohenzollerndamm"
-        },
-        fromPosition: 1,
-        toStation: {
-            id: "900000045102",
-            name: "Heidelberger Platz"
-        },
-        toLines: ["U3"],
-        nextStation: {
-            id: "900000045101",
-            name: "Rüdesheimer Platz"
-        },
-        toPosition: 1,
-        samePlatform: false
-    }
-    // …
-]
+{
+    fromStation: {
+        id: "900000045102",
+        name: "Heidelberger Platz"
+    },
+    fromLines: ["S42","S46"],
+    previousStation: {
+        id: "900000044101",
+        name: "Hohenzollerndamm"
+    },
+    fromPosition: 1,
+    toStation: {
+        id: "900000045102",
+        name: "Heidelberger Platz"
+    },
+    toLines: ["U3"],
+    nextStation: {
+        id: "900000045101",
+        name: "Rüdesheimer Platz"
+    },
+    toPosition: 1,
+    samePlatform: false
+}
 ```
 
 ## Data structure
