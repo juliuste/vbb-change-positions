@@ -23,14 +23,20 @@
 	"repository": "juliuste/vbb-change-positions",
 	"bugs": "https://github.com/juliuste/vbb-change-positions/issues",
 	"main": "./index.js",
+	"browser": "./browser.js",
+	"react-native": "./browser.js",
 	"files": [
 		"index.js",
-		"data.ndjson"
+		"browser.js",
+		"data.ndjson",
+		"data.json"
 	],
 	"dependencies": {
+		"from2-array": "0.0.4",
 		"ndjson": "^1.5.0"
 	},
 	"devDependencies": {
+		"get-stream": "^4.1.0",
 		"is-stream": "^1.1.0",
 		"lodash.isarray": "^4.0.0",
 		"lodash.isboolean": "^3.0.3",
@@ -43,8 +49,9 @@
 		"vbb-stations": "^6.0.0"
 	},
 	"scripts": {
+		"build": "node build.js >data.json",
 		"test": "node test.js",
-		"prepare": "npm test"
+		"prepare": "npm run build && npm test"
 	},
 	"engines": {
 		"node": ">=8"
