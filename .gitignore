@@ -8,3 +8,5 @@ dist
 
 yarn.lock
 shrinkwrap.yaml
+
+/data.json
