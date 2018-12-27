@@ -14,7 +14,7 @@ You're invited to help, see the [data structure](#data-structure) and [contribut
 
 ## Installation and Usage
 
-If you're using `JavaScript`, you can use the module by installing:
+If you're using `JavaScript`, you can use the package by installing:
 
 ```shell
 npm install vbb-change-positions
@@ -47,6 +47,11 @@ If you call the function exported by the module, it will return a stream which e
     samePlatform: false
 }
 ```
+
+### Browser support
+
+Using bundlers like [WebPack](https://webpack.js.org) or [browserify](http://browserify.org), this package will work in the browser. Keep in mind that it contains quite a lot of data (~200k uncompressed, ~10k gzipped).
+
 
 ## Data structure
 
