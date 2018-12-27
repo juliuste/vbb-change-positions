@@ -20,7 +20,14 @@ If you're using `JavaScript`, you can use the package by installing:
 npm install vbb-change-positions
 ```
 
-If you call the function exported by the module, it will return a stream which emits objects that look like this:
+```js
+const readChangePositions = require('vbb-change-positions')
+
+const changePositions = readChangePositions()
+changePositions.on('data', console.log)
+```
+
+`changePositions` will be a [readable stream](https://nodejs.org/api/stream.html#stream_readable_streams) in [object mode](https://nodejs.org/api/stream.html#stream_object_mode).
 
 ```js
 {
