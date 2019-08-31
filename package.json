@@ -45,7 +45,7 @@
 		"lodash.isstring": "^4.0.1",
 		"ndjson": "^1.5.0",
 		"tape": "^4.8.0",
-		"vbb-lines-at": "^3.10.0",
+		"vbb-lines-at": "^3.20.0",
 		"vbb-stations": "^7.0.0"
 	},
 	"scripts": {
