@@ -1,22 +1,15 @@
 {
 	"name": "vbb-change-positions",
 	"description": "Station-specific platform positions for changes between vbb main lines.",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"keywords": [
 		"vbb",
 		"berlin",
 		"brandenburg",
 		"verkehrsverbund",
-		"public",
-		"transport",
+		"public transport",
 		"change",
-		"nahverkehr",
-		"ubahn",
-		"sbahn",
-		"metro",
-		"train",
-		"germany",
-		"rail"
+		"transfer"
 	],
 	"author": "Julius Tens <mail@juliustens.eu>",
 	"homepage": "https://github.com/juliuste/vbb-change-positions",
@@ -32,7 +25,6 @@
 		"data.json"
 	],
 	"dependencies": {
-		"from2-array": "0.0.4",
 		"ndjson": "^1.5.0"
 	},
 	"devDependencies": {
@@ -45,13 +37,13 @@
 		"lodash.isstring": "^4.0.1",
 		"ndjson": "^1.5.0",
 		"tape": "^4.8.0",
-		"vbb-lines-at": "^3.10.0",
+		"vbb-lines-at": "^4.2.1",
 		"vbb-stations": "^7.0.0"
 	},
 	"scripts": {
 		"build": "node build.js >data.json",
 		"test": "node test.js",
-		"prepare": "npm run build && npm test"
+		"prepublishOnly": "npm run build && npm test"
 	},
 	"engines": {
 		"node": ">=8"
