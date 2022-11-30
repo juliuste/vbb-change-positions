@@ -3,7 +3,7 @@
 const {Readable} = require('stream')
 const data = require('./data.json')
 
-const positions = () => {
+const createVbbChangePositionsStream = () => {
 	const lastI = data.length - 1
 
 	let i = 0
@@ -21,4 +21,4 @@ const positions = () => {
 	})
 }
 
-module.exports = positions
+module.exports = createVbbChangePositionsStream

@@ -4,8 +4,8 @@ const fs = require('fs')
 const path = require('path')
 const ndjson = require('ndjson')
 
-const positions = () =>
+const createVbbChangePositionsStream = () =>
     fs.createReadStream(path.join(__dirname, 'data.ndjson'))
     .pipe(ndjson.parse())
 
-module.exports = positions
+module.exports = createVbbChangePositionsStream
