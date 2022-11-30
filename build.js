@@ -13,7 +13,6 @@ const onError = (err) => {
 }
 
 const src = join(__dirname, 'data.ndjson')
-const dest = join(__dirname, 'data.json')
 
 const readable = createReadStream(src)
 .once('error', onError)
