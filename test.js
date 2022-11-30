@@ -1,11 +1,10 @@
 'use strict'
 
 const test = require('tape')
-const isObject = require('lodash.isobject')
-const isString = require('lodash.isstring')
-const isNumber = require('lodash.isnumber')
-const isArray = require('lodash.isarray')
-const isBoolean = require('lodash.isboolean')
+const isObject = require('lodash/isObject')
+const isString = require('lodash/isString')
+const isNumber = require('lodash/isNumber')
+const isBoolean = require('lodash/isBoolean')
 const ndjson = require('ndjson')
 const path = require('path')
 const fs = require('fs')
@@ -22,8 +21,8 @@ const undefinedOrString = (x) => (isString(x) && !!x) || x === undefined
 const validPosition = (x) => isNumber(x) && x >= 0 && x <= 1
 
 const checkLines = (t, stationId, lines, desc) => {
-	t.ok(isArray(lines), desc + ' must be an array')
-	if (!isArray(lines)) return;
+	t.ok(Array.isArray(lines), desc + ' must be an array')
+	if (!Array.isArray(lines)) return;
 	t.ok(lines.length > 0, desc + ' must have >0 entries')
 	t.ok(lines.every(notNullString), desc + ' must not contain empty strings')
 
