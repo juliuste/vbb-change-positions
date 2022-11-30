@@ -32,27 +32,28 @@ changePositions.on('data', console.log)
 ```js
 {
     fromStation: {
-        id: "900000045102",
+        id: "de:11000:900045102",
         name: "Heidelberger Platz"
     },
     fromLines: ["S42","S46"],
     previousStation: {
-        id: "900000044101",
+        id: "de:11000:900044101",
         name: "Hohenzollerndamm"
     },
     fromPosition: 1,
     toStation: {
-        id: "900000045102",
+        id: "de:11000:900045102",
         name: "Heidelberger Platz"
     },
     toLines: ["U3"],
     nextStation: {
-        id: "900000045101",
+        id: "de:11000:900045101",
         name: "Rüdesheimer Platz"
     },
     toPosition: 1,
     samePlatform: false
 }
+// …
 ```
 
 ### Browser support
@@ -72,27 +73,27 @@ The dataset row would then contain the following information:
 
 | key name | description | required | example |
 | -------- | ----------- | -------- | ------- |
-| `fromStation` | Station at which you arrive. Object containing the keys below. | yes | `{id: "900000045102", name: "Heidelberger Platz"}` |
-| `fromStation.id` | Arrival station ID\* | yes | `900000045102` |
+| `fromStation` | Station at which you arrive. Object containing the keys below. | yes | `{id: "de:11000:900045102", name: "Heidelberger Platz"}` |
+| `fromStation.id` | Arrival station [IFOPT](https://en.wikipedia.org/wiki/Identification_of_Fixed_Objects_in_Public_Transport) ID\* | yes | `de:11000:900045102` |
 | `fromStation.name` | Arrival station name (only for readability of the dataset) | no | `Heidelberger Platz` |
 | `fromLines`    | "Arriving" line names. Note that the lines must run on the same platform and share the same `fromStation`. For the lines that fit those criteria, there should exist only one dataset row grouping them, though. This key exists mostly because information on `fromTrack` is much harder to get/remember than the rather simple line names and sometimes the track changes but the platform doesn't. | yes | `["S42", "S46"]` |
-| `previousStation` | Previous station on the line before changing. Object containing the keys below. | yes | `{id: "900000044101", name: "Hohenzollerndamm"}` |
-| `previousStation.id` | Previous station ID\* | yes | `900000044101` |
+| `previousStation` | Previous station on the line before changing. Object containing the keys below. | yes | `{id: "de:11000:900044101", name: "Hohenzollerndamm"}` |
+| `previousStation.id` | Previous station [IFOPT](https://en.wikipedia.org/wiki/Identification_of_Fixed_Objects_in_Public_Transport) ID\* | yes | `de:11000:900044101` |
 | `previousStation.name` | Previous station name (only for readability of the dataset) | no | `Hohenzollerndamm` |
 | `fromTrack`| Arrival platform (track)\*\* | no | *empty*
 | `fromPosition`| Number where to leave the arrival platform. Between `0` (at the rear end of the station) and `1` (at the front "driver's" end of the station) \*\*\* | yes | `1` |
-| `toStation` | Station at which you depart. Mostly the same as `fromStation`, but different for interchanges like `Kaiserdamm <-> Messe Nord/ICC` that are marked as one node on the public transport map. Object containing the keys below. | yes | `{id: "900000045102", name: "Heidelberger Platz"}` |
-| `toStation.id` | Arrival station ID\* | yes | `900000045102` |
+| `toStation` | Station at which you depart. Mostly the same as `fromStation`, but different for interchanges like `Kaiserdamm <-> Messe Nord/ICC` that are marked as one node on the public transport map. Object containing the keys below. | yes | `{id: "de:11000:900045102", name: "Heidelberger Platz"}` |
+| `toStation.id` | Arrival station [IFOPT](https://en.wikipedia.org/wiki/Identification_of_Fixed_Objects_in_Public_Transport) ID\* | yes | `de:11000:900045102` |
 | `toStation.name` | Arrival station name (only for readability of the dataset) | no | `Heidelberger Platz` |
 | `toLines`    | "Departing" line names, see `fromLines` | yes | `["U3"]` |
-| `nextStation` | Next station on the line after changing. Object containing the keys below. | yes | `{id: "900000045101", name: "Rüdesheimer Platz"}` |
-| `nextStation.id` | Next station ID\* | yes | `900000045101` |
+| `nextStation` | Next station on the line after changing. Object containing the keys below. | yes | `{id: "de:11000:900045101", name: "Rüdesheimer Platz"}` |
+| `nextStation.id` | Next station [IFOPT](https://en.wikipedia.org/wiki/Identification_of_Fixed_Objects_in_Public_Transport) ID\* | yes | `de:11000:900045101` |
 | `nextStation.name` | Next station name (only for readability of the dataset) | no | `Rüdesheimer Platz` |
 | `toTrack`| Departure platform (track)\*\* | no | *empty*
 | `toPosition`| Number where to enter the departure platform.\*\*\* See also `fromPosition`. | yes | `1` |
 | `samePlatform` | Set to `true` if both trains stop at the same platform (entire platform, not "only" track). `fromPosition` and `toPosition` will be ignored and **should be set to `0.5`** | no | `false` |
 
-\* See [this document](station-ids.md) if you don't know how to find out some station's VBB station ID
+\* See [this document](station-ids.md) if you don't know how to find out some station's VBB station [IFOPT](https://en.wikipedia.org/wiki/Identification_of_Fixed_Objects_in_Public_Transport) ID
 
 \*\* If unknown, just leave empty/unset like I did here.
 
@@ -101,7 +102,7 @@ The dataset row would then contain the following information:
 Finally, our example would give us the following data row for the NDJSON file:
 
 ```json
-{"fromStation":{"id":"900000045102","name":"Heidelberger Platz"},"fromLines":["S42","S46"],"previousStation":{"id":"900000044101","name":"Hohenzollerndamm"},"fromPosition":1,"toStation":{"id":"900000045102","name":"Heidelberger Platz"},"toLines":["U3"],"nextStation":{"id":"900000045101","name":"Rüdesheimer Platz"},"toPosition":1,"samePlatform":false}
+{"fromStation":{"id":"de:11000:900045102","name":"Heidelberger Platz"},"fromLines":["S42","S46"],"previousStation":{"id":"de:11000:900044101","name":"Hohenzollerndamm"},"fromPosition":1,"toStation":{"id":"de:11000:900045102","name":"Heidelberger Platz"},"toLines":["U3"],"nextStation":{"id":"de:11000:900045101","name":"Rüdesheimer Platz"},"toPosition":1,"samePlatform":false}
 ```
 ### Additional guidelines
 
