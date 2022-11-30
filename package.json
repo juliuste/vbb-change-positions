@@ -28,6 +28,7 @@
 		"ndjson": "^2.0.0"
 	},
 	"devDependencies": {
+		"eslint": "^8.28.0",
 		"get-stream": "^6.0.1",
 		"is-stream": "^2.0.1",
 		"lodash": "^4.17.21",
@@ -36,9 +37,10 @@
 		"vbb-stations": "^7.0.0"
 	},
 	"scripts": {
+		"lint": "eslint .",
 		"build": "node build.js >data.json",
 		"test": "node test.js",
-		"prepublishOnly": "npm run build && npm test"
+		"prepublishOnly": "npm run lint && npm run build && npm test"
 	},
 	"engines": {
 		"node": ">=18"
