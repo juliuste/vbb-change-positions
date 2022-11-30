@@ -32,7 +32,6 @@
 		"data.json"
 	],
 	"dependencies": {
-		"from2-array": "0.0.4",
 		"ndjson": "^1.5.0"
 	},
 	"devDependencies": {
