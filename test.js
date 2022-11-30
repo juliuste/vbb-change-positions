@@ -92,24 +92,22 @@ test('data.ndjson looks correct', (t) => {
 	.once('end', () => t.end())
 })
 
-test('returns correct values', (t) => {
+test('returns correct values', async (t) => {
 	const positions = changePositions()
 	t.ok(isStream.readable(positions))
 
 	let rowNr = 1
-	positions.on('data', p => checkPosition(t, p, rowNr++))
-
-	positions.on('error', err => t.ifError(err))
-	positions.once('end', () => t.end())
+	for await (const p of positions) {
+		checkPosition(t, p, rowNr++)
+	}
 })
 
-test('browser.js returns correct values', (t) => {
+test('browser.js returns correct values', async (t) => {
 	const positions = changePositionsBrowser()
 	t.ok(isStream.readable(positions))
 
 	let rowNr = 1
-	positions.on('data', p => checkPosition(t, p, rowNr++))
-
-	positions.on('error', err => t.ifError(err))
-	positions.once('end', () => t.end())
+	for await (const p of positions) {
+		checkPosition(t, p, rowNr++)
+	}
 })
